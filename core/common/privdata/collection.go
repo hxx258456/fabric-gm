@@ -9,10 +9,10 @@ package privdata
 import (
 	"strings"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 )
 
 // Collection defines a common interface for collections

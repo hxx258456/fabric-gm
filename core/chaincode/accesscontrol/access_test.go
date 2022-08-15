@@ -13,7 +13,6 @@ import (
 	"testing"
 	"time"
 
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	tls "github.com/hxx258456/ccgo/gmtls"
 	"github.com/hxx258456/ccgo/grpc"
@@ -21,6 +20,7 @@ import (
 	"github.com/hxx258456/ccgo/x509"
 	"github.com/hxx258456/fabric-gm/common/crypto/tlsgen"
 	"github.com/hxx258456/fabric-gm/common/flogging/floggingtest"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap/zapcore"
 )

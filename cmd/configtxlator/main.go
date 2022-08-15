@@ -13,20 +13,20 @@ import (
 	"os"
 	"reflect"
 
-	"gitee.com/zhaochuninhefei/fabric-config-gm/protolator"
-	_ "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common" // Import these to register the proto types
-	_ "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
-	_ "gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
-	_ "gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer/etcdraft"
-	_ "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	http "github.com/hxx258456/ccgo/gmhttp"
+	"github.com/hxx258456/fabric-config-gm/protolator"
 	"github.com/hxx258456/fabric-gm/cmd"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/internal/configtxlator/metadata"
 	"github.com/hxx258456/fabric-gm/internal/configtxlator/rest"
 	"github.com/hxx258456/fabric-gm/internal/configtxlator/update"
+	_ "github.com/hxx258456/fabric-protos-go-gm/common"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common" // Import these to register the proto types
+	_ "github.com/hxx258456/fabric-protos-go-gm/msp"
+	_ "github.com/hxx258456/fabric-protos-go-gm/orderer"
+	_ "github.com/hxx258456/fabric-protos-go-gm/orderer/etcdraft"
+	_ "github.com/hxx258456/fabric-protos-go-gm/peer"
 
 	"github.com/hxx258456/ccgo/handlers"
 	"github.com/pkg/errors"

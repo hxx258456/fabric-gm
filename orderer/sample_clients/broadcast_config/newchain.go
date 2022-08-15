@@ -4,10 +4,10 @@
 package main
 
 import (
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/fabric-gm/internal/configtxgen/encoder"
 	"github.com/hxx258456/fabric-gm/internal/configtxgen/genesisconfig"
 	"github.com/hxx258456/fabric-gm/internal/pkg/identity"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
 )
 
 func newChainRequest(

@@ -9,13 +9,13 @@ package kvledger
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/queryresult"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset/kvrwset"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
 	"github.com/hxx258456/fabric-gm/common/ledger/testutil"
 	"github.com/hxx258456/fabric-gm/common/metrics/disabled"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/core/ledger/mock"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/queryresult"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset/kvrwset"
 	"github.com/stretchr/testify/require"
 )
 

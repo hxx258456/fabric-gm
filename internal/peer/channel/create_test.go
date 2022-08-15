@@ -19,8 +19,6 @@ import (
 	"testing"
 	"time"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/ccgo/grpc"
 	"github.com/hxx258456/fabric-gm/core/config/configtest"
@@ -29,6 +27,8 @@ import (
 	"github.com/hxx258456/fabric-gm/internal/pkg/identity"
 	msptesttools "github.com/hxx258456/fabric-gm/msp/mgmt/testtools"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/orderer"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

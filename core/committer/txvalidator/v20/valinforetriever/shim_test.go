@@ -9,9 +9,9 @@ package valinforetriever_test
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 
 	"github.com/hxx258456/fabric-gm/core/committer/txvalidator/v20/valinforetriever"
 	"github.com/hxx258456/fabric-gm/core/committer/txvalidator/v20/valinforetriever/mocks"

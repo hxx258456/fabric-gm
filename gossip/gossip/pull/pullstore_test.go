@@ -15,13 +15,13 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
-	proto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
 	"github.com/hxx258456/fabric-gm/gossip/comm"
 	"github.com/hxx258456/fabric-gm/gossip/discovery"
 	"github.com/hxx258456/fabric-gm/gossip/gossip/algo"
 	"github.com/hxx258456/fabric-gm/gossip/protoext"
 	"github.com/hxx258456/fabric-gm/gossip/util"
+	"github.com/hxx258456/fabric-protos-go-gm/gossip"
+	proto "github.com/hxx258456/fabric-protos-go-gm/gossip"
 	"github.com/stretchr/testify/assert"
 )
 

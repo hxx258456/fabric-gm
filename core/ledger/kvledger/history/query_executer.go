@@ -7,13 +7,13 @@ SPDX-License-Identifier: Apache-2.0
 package history
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/queryresult"
 	commonledger "github.com/hxx258456/fabric-gm/common/ledger"
 	"github.com/hxx258456/fabric-gm/common/ledger/blkstorage"
 	"github.com/hxx258456/fabric-gm/common/ledger/util/leveldbhelper"
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger/txmgmt/rwsetutil"
 	protoutil "github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/queryresult"
 	"github.com/pkg/errors"
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 )

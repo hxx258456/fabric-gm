@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"io"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/pkg/statedata"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 )
 
 // ProcessorCreator creates a new instance of a processor of a particular transaction type.

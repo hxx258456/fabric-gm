@@ -15,9 +15,6 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
-	transientstore2 "gitee.com/zhaochuninhefei/fabric-protos-go-gm/transientstore"
 	"github.com/hxx258456/ccgo/grpc"
 	"github.com/hxx258456/fabric-gm/bccsp/factory"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
@@ -47,6 +44,9 @@ import (
 	"github.com/hxx258456/fabric-gm/internal/pkg/peer/orderers"
 	"github.com/hxx258456/fabric-gm/msp/mgmt"
 	msptesttools "github.com/hxx258456/fabric-gm/msp/mgmt/testtools"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
+	transientstore2 "github.com/hxx258456/fabric-protos-go-gm/transientstore"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

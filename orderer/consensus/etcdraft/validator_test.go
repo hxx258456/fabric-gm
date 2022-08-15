@@ -13,14 +13,14 @@ import (
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/orderer/consensus/etcdraft/mocks"
 
-	etcdraftproto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer/etcdraft"
-	raftprotos "gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer/etcdraft"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/bccsp"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
 	"github.com/hxx258456/fabric-gm/common/crypto/tlsgen"
 	"github.com/hxx258456/fabric-gm/orderer/consensus/etcdraft"
 	consensusmocks "github.com/hxx258456/fabric-gm/orderer/consensus/mocks"
+	etcdraftproto "github.com/hxx258456/fabric-protos-go-gm/orderer/etcdraft"
+	raftprotos "github.com/hxx258456/fabric-protos-go-gm/orderer/etcdraft"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

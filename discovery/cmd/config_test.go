@@ -11,11 +11,11 @@ import (
 	"fmt"
 	"testing"
 
-	. "gitee.com/zhaochuninhefei/fabric-protos-go-gm/discovery"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/hxx258456/fabric-gm/cmd/common"
 	discovery "github.com/hxx258456/fabric-gm/discovery/cmd"
 	"github.com/hxx258456/fabric-gm/discovery/cmd/mocks"
+	. "github.com/hxx258456/fabric-protos-go-gm/discovery"
+	"github.com/hxx258456/fabric-protos-go-gm/msp"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

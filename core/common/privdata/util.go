@@ -7,12 +7,12 @@ SPDX-License-Identifier: Apache-2.0
 package privdata
 
 import (
-	mspp "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/common/cauthdsl"
 	"github.com/hxx258456/fabric-gm/common/policies"
 	"github.com/hxx258456/fabric-gm/msp"
+	mspp "github.com/hxx258456/fabric-protos-go-gm/msp"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 )
 

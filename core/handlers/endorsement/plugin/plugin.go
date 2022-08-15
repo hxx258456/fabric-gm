@@ -10,9 +10,9 @@ import (
 	"errors"
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	. "github.com/hxx258456/fabric-gm/core/handlers/endorsement/api"
 	. "github.com/hxx258456/fabric-gm/core/handlers/endorsement/api/identities"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 )
 
 // To build the plugin,

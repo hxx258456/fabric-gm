@@ -12,10 +12,10 @@ import (
 	"os"
 	"path/filepath"
 
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
 	"github.com/hxx258456/fabric-gm/internal/peer/lifecycle/chaincode"
 	"github.com/hxx258456/fabric-gm/internal/peer/lifecycle/chaincode/mock"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 

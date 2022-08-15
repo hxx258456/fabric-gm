@@ -11,12 +11,12 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/fabric-gm/common/ledger/testutil"
 	"github.com/hxx258456/fabric-gm/common/util"
 	lgr "github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/core/ledger/mock"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/stretchr/testify/require"
 )
 

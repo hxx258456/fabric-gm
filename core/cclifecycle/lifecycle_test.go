@@ -15,7 +15,6 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/common/chaincode"
 	"github.com/hxx258456/fabric-gm/common/flogging/floggingtest"
 	"github.com/hxx258456/fabric-gm/core/cclifecycle"
@@ -24,6 +23,7 @@ import (
 	"github.com/hxx258456/fabric-gm/core/common/privdata"
 	"github.com/hxx258456/fabric-gm/core/ledger/cceventmgmt"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/pkg/errors"

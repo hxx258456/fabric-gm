@@ -17,8 +17,6 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/ccgo/x509"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
@@ -36,6 +34,8 @@ import (
 	"github.com/hxx258456/fabric-gm/orderer/common/cluster"
 	"github.com/hxx258456/fabric-gm/orderer/common/cluster/mocks"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/msp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"

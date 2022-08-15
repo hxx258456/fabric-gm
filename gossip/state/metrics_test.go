@@ -10,13 +10,13 @@ import (
 	"sync"
 	"testing"
 
-	proto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
 	"github.com/hxx258456/fabric-gm/gossip/discovery"
 	"github.com/hxx258456/fabric-gm/gossip/metrics"
 	gmetricsmocks "github.com/hxx258456/fabric-gm/gossip/metrics/mocks"
 	"github.com/hxx258456/fabric-gm/gossip/protoext"
 	"github.com/hxx258456/fabric-gm/gossip/state/mocks"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	proto "github.com/hxx258456/fabric-protos-go-gm/gossip"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

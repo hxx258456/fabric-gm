@@ -9,9 +9,6 @@ package validation
 import (
 	"bytes"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/core/ledger/internal/version"
@@ -21,6 +18,9 @@ import (
 	"github.com/hxx258456/fabric-gm/core/ledger/util"
 	"github.com/hxx258456/fabric-gm/internal/pkg/txflags"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 )
 

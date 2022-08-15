@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 
 package rwsetutil
 
-import "gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset/kvrwset"
+import "github.com/hxx258456/fabric-protos-go-gm/ledger/rwset/kvrwset"
 
 // SetRawReads sets the 'readsInfo' field to raw KVReads performed by the query
 func SetRawReads(rqi *kvrwset.RangeQueryInfo, kvReads []*kvrwset.KVRead) {

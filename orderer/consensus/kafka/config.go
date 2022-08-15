@@ -11,7 +11,7 @@ import (
 	"github.com/hxx258456/ccgo/x509"
 	localconfig "github.com/hxx258456/fabric-gm/orderer/common/localconfig"
 
-	"gitee.com/zhaochuninhefei/saramagm/sarama"
+	"github.com/hxx258456/saramagm/sarama"
 )
 
 func newBrokerConfig(

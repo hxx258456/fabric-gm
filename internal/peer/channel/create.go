@@ -11,7 +11,6 @@ import (
 	"io/ioutil"
 	"time"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/common/configtx"
 	"github.com/hxx258456/fabric-gm/common/util"
@@ -20,6 +19,7 @@ import (
 	"github.com/hxx258456/fabric-gm/internal/peer/common"
 	"github.com/hxx258456/fabric-gm/internal/pkg/identity"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

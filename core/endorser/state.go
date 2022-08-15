@@ -7,10 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package endorser
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset"
 	endorsement "github.com/hxx258456/fabric-gm/core/handlers/endorsement/api/state"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/core/transientstore"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset"
 	"github.com/pkg/errors"
 )
 

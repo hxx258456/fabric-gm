@@ -9,7 +9,6 @@ package msgprocessor
 import (
 	"fmt"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/bccsp"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
@@ -18,6 +17,7 @@ import (
 	"github.com/hxx258456/fabric-gm/internal/pkg/identity"
 	"github.com/hxx258456/fabric-gm/orderer/common/localconfig"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/pkg/errors"
 )
 

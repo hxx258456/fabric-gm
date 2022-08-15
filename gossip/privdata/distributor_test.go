@@ -11,9 +11,6 @@ import (
 	"fmt"
 	"testing"
 
-	proto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/transientstore"
 	"github.com/hxx258456/fabric-gm/core/common/privdata"
 	"github.com/hxx258456/fabric-gm/gossip/api"
 	gcommon "github.com/hxx258456/fabric-gm/gossip/common"
@@ -25,6 +22,9 @@ import (
 	mocks2 "github.com/hxx258456/fabric-gm/gossip/privdata/mocks"
 	"github.com/hxx258456/fabric-gm/gossip/protoext"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	proto "github.com/hxx258456/fabric-protos-go-gm/gossip"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
+	"github.com/hxx258456/fabric-protos-go-gm/transientstore"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

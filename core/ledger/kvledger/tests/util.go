@@ -7,10 +7,6 @@ SPDX-License-Identifier: Apache-2.0
 package tests
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
-	protopeer "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	configtxtest "github.com/hxx258456/fabric-gm/common/configtx/test"
 	"github.com/hxx258456/fabric-gm/common/crypto"
@@ -19,6 +15,10 @@ import (
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger/tests/fakes"
 	"github.com/hxx258456/fabric-gm/internal/pkg/txflags"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset"
+	"github.com/hxx258456/fabric-protos-go-gm/msp"
+	protopeer "github.com/hxx258456/fabric-protos-go-gm/peer"
 )
 
 var logger = flogging.MustGetLogger("test2")

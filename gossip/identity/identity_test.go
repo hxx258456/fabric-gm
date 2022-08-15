@@ -14,10 +14,10 @@ import (
 	"testing"
 	"time"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/fabric-gm/gossip/api"
 	"github.com/hxx258456/fabric-gm/gossip/common"
 	"github.com/hxx258456/fabric-gm/gossip/util"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

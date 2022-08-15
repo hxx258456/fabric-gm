@@ -9,9 +9,9 @@ package pvtdatastorage
 import (
 	"math"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/core/ledger/pvtdatapolicy"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset"
 	"github.com/willf/bitset"
 )
 

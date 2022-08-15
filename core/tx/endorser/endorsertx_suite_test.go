@@ -10,10 +10,10 @@ import (
 	"math/rand"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	txpkg "github.com/hxx258456/fabric-gm/pkg/tx"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

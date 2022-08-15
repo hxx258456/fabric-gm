@@ -9,9 +9,9 @@ import (
 	"path"
 	"testing"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/golang/protobuf/proto"
 	bootfile "github.com/hxx258456/fabric-gm/orderer/common/bootstrap/file"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -7,9 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package blkstorage
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/pkg/errors"
 )
 

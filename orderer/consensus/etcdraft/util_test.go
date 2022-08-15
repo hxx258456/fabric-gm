@@ -13,8 +13,6 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	etcdraftproto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer/etcdraft"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/ccgo/x509"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
@@ -22,6 +20,8 @@ import (
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/orderer/common/cluster"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	etcdraftproto "github.com/hxx258456/fabric-protos-go-gm/orderer/etcdraft"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -11,15 +11,15 @@ import (
 	"io/ioutil"
 	"math"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	mspprotos "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
-	ab "gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer/etcdraft"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/bccsp"
 	"github.com/hxx258456/fabric-gm/bccsp/factory"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	mspprotos "github.com/hxx258456/fabric-protos-go-gm/msp"
+	ab "github.com/hxx258456/fabric-protos-go-gm/orderer"
+	"github.com/hxx258456/fabric-protos-go-gm/orderer/etcdraft"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 )
 

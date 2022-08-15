@@ -11,12 +11,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/orderer/common/msgprocessor/mocks"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/msp"
 	"github.com/stretchr/testify/assert"
 )
 

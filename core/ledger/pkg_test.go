@@ -8,7 +8,7 @@ package ledger
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset"
 	"github.com/stretchr/testify/assert"
 )
 

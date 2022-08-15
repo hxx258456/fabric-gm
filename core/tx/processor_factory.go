@@ -9,10 +9,10 @@ package tx
 import (
 	"github.com/pkg/errors"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/pkg/tx"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 )
 
 // ProcessorFactory maintains a mapping between transaction type and associate `ProcessorCreator`

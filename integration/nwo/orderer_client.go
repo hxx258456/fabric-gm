@@ -12,9 +12,9 @@ import (
 	"path"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
 	"github.com/hxx258456/fabric-gm/internal/pkg/comm"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/orderer"
 	"github.com/pkg/errors"
 )
 

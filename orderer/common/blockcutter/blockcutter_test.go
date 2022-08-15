@@ -10,10 +10,10 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	ab "gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
 	"github.com/hxx258456/fabric-gm/orderer/common/blockcutter"
 	"github.com/hxx258456/fabric-gm/orderer/common/blockcutter/mock"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	ab "github.com/hxx258456/fabric-protos-go-gm/orderer"
 )
 
 var _ = Describe("Blockcutter", func() {

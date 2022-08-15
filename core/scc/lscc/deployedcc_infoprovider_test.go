@@ -10,14 +10,14 @@ import (
 	"fmt"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/queryresult"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/core/common/ccprovider"
 	"github.com/hxx258456/fabric-gm/core/common/privdata"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/core/scc/lscc"
 	"github.com/hxx258456/fabric-gm/core/scc/lscc/mock"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/queryresult"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/stretchr/testify/assert"
 )
 

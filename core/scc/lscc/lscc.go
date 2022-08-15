@@ -12,10 +12,8 @@ import (
 	"regexp"
 	"sync"
 
-	"gitee.com/zhaochuninhefei/fabric-chaincode-go-gm/shim"
-	mb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
+	"github.com/hxx258456/fabric-chaincode-go-gm/shim"
 	"github.com/hxx258456/fabric-gm/bccsp"
 	"github.com/hxx258456/fabric-gm/common/cauthdsl"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
@@ -39,6 +37,8 @@ import (
 	"github.com/hxx258456/fabric-gm/msp"
 	"github.com/hxx258456/fabric-gm/msp/mgmt"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	mb "github.com/hxx258456/fabric-protos-go-gm/msp"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 )
 

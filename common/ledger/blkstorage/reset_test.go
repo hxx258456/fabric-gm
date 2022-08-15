@@ -12,11 +12,11 @@ import (
 	"path"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/common/ledger/testutil"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/stretchr/testify/require"
 )
 

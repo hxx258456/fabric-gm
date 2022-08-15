@@ -7,13 +7,13 @@ SPDX-License-Identifier: Apache-2.0
 package common
 
 import (
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	ab "gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/common/util"
 	"github.com/hxx258456/fabric-gm/internal/pkg/identity"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	ab "github.com/hxx258456/fabric-protos-go-gm/orderer"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 )
 

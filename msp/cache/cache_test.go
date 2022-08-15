@@ -10,9 +10,9 @@ import (
 	"sync"
 	"testing"
 
-	msp2 "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/hxx258456/fabric-gm/msp"
 	"github.com/hxx258456/fabric-gm/msp/mocks"
+	msp2 "github.com/hxx258456/fabric-protos-go-gm/msp"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

@@ -10,11 +10,11 @@ import (
 	"errors"
 	"fmt"
 
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/common/policies"
 	"github.com/hxx258456/fabric-gm/msp"
 	"github.com/hxx258456/fabric-gm/msp/mgmt"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 )
 
 // PolicyChecker offers methods to check a signed proposal against a specific policy

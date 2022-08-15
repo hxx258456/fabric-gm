@@ -9,13 +9,13 @@ package chaincode
 import (
 	"context"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
-	lb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer/lifecycle"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/bccsp"
 	"github.com/hxx258456/fabric-gm/core/chaincode/persistence"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
+	lb "github.com/hxx258456/fabric-protos-go-gm/peer/lifecycle"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

@@ -9,7 +9,6 @@ package endorser
 import (
 	"fmt"
 
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/core/aclmgmt"
 	"github.com/hxx258456/fabric-gm/core/aclmgmt/resources"
@@ -22,6 +21,7 @@ import (
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/core/scc"
 	"github.com/hxx258456/fabric-gm/internal/pkg/identity"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 )
 

@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/fabric-gm/common/ledger/blkstorage"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/stretchr/testify/require"
 )
 

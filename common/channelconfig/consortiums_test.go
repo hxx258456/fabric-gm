@@ -8,7 +8,7 @@ package channelconfig
 import (
 	"testing"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/stretchr/testify/assert"
 )
 

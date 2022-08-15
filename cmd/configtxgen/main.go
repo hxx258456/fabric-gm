@@ -14,10 +14,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/fabric-config-gm/protolator"
-	"gitee.com/zhaochuninhefei/fabric-config-gm/protolator/protoext/ordererext"
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/golang/protobuf/proto"
+	"github.com/hxx258456/fabric-config-gm/protolator"
+	"github.com/hxx258456/fabric-config-gm/protolator/protoext/ordererext"
 	"github.com/hxx258456/fabric-gm/bccsp/factory"
 	"github.com/hxx258456/fabric-gm/cmd"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
@@ -27,6 +26,7 @@ import (
 	"github.com/hxx258456/fabric-gm/internal/configtxgen/metadata"
 	"github.com/hxx258456/fabric-gm/internal/configtxlator/update"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/pkg/errors"
 )
 

@@ -10,12 +10,12 @@ import (
 	"fmt"
 	"strconv"
 
-	"gitee.com/zhaochuninhefei/fabric-chaincode-go-gm/shim"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
+	"github.com/hxx258456/fabric-chaincode-go-gm/shim"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/core/aclmgmt"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 )
 
 // LedgerGetter gets the PeerLedger associated with a channel.

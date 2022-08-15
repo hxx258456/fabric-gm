@@ -12,11 +12,11 @@ import (
 	"fmt"
 	"time"
 
-	m "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/bccsp"
 	idemixbccsp "github.com/hxx258456/fabric-gm/bccsp/idemix"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
+	m "github.com/hxx258456/fabric-protos-go-gm/msp"
 	"github.com/pkg/errors"
 	"go.uber.org/zap/zapcore"
 )

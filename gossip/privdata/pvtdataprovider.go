@@ -12,9 +12,6 @@ import (
 	"fmt"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	vsccErrors "github.com/hxx258456/fabric-gm/common/errors"
 	"github.com/hxx258456/fabric-gm/common/metrics"
@@ -25,6 +22,9 @@ import (
 	pvtdatacommon "github.com/hxx258456/fabric-gm/gossip/privdata/common"
 	"github.com/hxx258456/fabric-gm/gossip/util"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset"
+	"github.com/hxx258456/fabric-protos-go-gm/msp"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 )
 
 type sleeper struct {

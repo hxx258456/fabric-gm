@@ -13,15 +13,15 @@ import (
 	"reflect"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/discovery"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/gossip/api"
 	gcommon "github.com/hxx258456/fabric-gm/gossip/common"
 	gdisc "github.com/hxx258456/fabric-gm/gossip/discovery"
 	"github.com/hxx258456/fabric-gm/gossip/protoext"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/discovery"
+	"github.com/hxx258456/fabric-protos-go-gm/gossip"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

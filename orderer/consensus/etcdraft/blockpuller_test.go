@@ -10,7 +10,6 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
 	"github.com/hxx258456/fabric-gm/common/crypto/tlsgen"
@@ -22,6 +21,7 @@ import (
 	"github.com/hxx258456/fabric-gm/orderer/consensus/etcdraft"
 	"github.com/hxx258456/fabric-gm/orderer/mocks/common/multichannel"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/stretchr/testify/assert"
 )
 

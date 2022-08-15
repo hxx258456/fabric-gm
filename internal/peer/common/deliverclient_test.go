@@ -12,13 +12,13 @@ import (
 	"sync"
 	"testing"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	ab "gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
 	"github.com/hxx258456/fabric-gm/core/config/configtest"
 	"github.com/hxx258456/fabric-gm/internal/peer/common/mock"
 	"github.com/hxx258456/fabric-gm/internal/pkg/identity"
 	msptesttools "github.com/hxx258456/fabric-gm/msp/mgmt/testtools"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	ab "github.com/hxx258456/fabric-protos-go-gm/orderer"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

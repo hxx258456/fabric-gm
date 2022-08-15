@@ -12,10 +12,10 @@ package endorser
 import (
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/transientstore"
 	"github.com/hxx258456/fabric-gm/core/ledger"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
+	"github.com/hxx258456/fabric-protos-go-gm/transientstore"
 	"github.com/pkg/errors"
 )
 

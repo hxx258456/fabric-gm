@@ -21,13 +21,13 @@ import (
 	"strings"
 	"time"
 
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	docker "github.com/fsouza/go-dockerclient"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/common/util"
 	"github.com/hxx258456/fabric-gm/core/chaincode/persistence"
 	"github.com/hxx258456/fabric-gm/core/container"
 	"github.com/hxx258456/fabric-gm/core/container/ccintf"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 )
 

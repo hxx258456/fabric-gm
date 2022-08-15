@@ -10,10 +10,10 @@ import (
 	"errors"
 	"fmt"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/fabric-gm/bccsp/factory"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
 )
 
 // ValidateJoinBlock returns whether this block can be used as a join block for the channel participation API

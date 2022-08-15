@@ -13,14 +13,14 @@ import (
 	"sync"
 	"time"
 
-	protosgossip "gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	commonutil "github.com/hxx258456/fabric-gm/common/util"
 	"github.com/hxx258456/fabric-gm/core/committer"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/gossip/metrics"
 	privdatacommon "github.com/hxx258456/fabric-gm/gossip/privdata/common"
 	"github.com/hxx258456/fabric-gm/gossip/util"
+	protosgossip "github.com/hxx258456/fabric-protos-go-gm/gossip"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 )
 

@@ -14,13 +14,13 @@ import (
 	"syscall"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-config-gm/configtx"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	docker "github.com/fsouza/go-dockerclient"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/ccgo/x509"
+	"github.com/hxx258456/fabric-config-gm/configtx"
 	"github.com/hxx258456/fabric-gm/integration/nwo"
 	"github.com/hxx258456/fabric-gm/integration/nwo/commands"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/tedsuo/ifrit"
 
 	. "github.com/onsi/ginkgo"

@@ -10,7 +10,7 @@ import (
 	"encoding/base64"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/fabric-config-gm/healthz"
+	"github.com/hxx258456/fabric-config-gm/healthz"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/common/metrics"
 	"github.com/hxx258456/fabric-gm/core/common/ccprovider"

@@ -9,12 +9,12 @@ package chaincode
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/hxx258456/fabric-gm/common/chaincode"
 	"github.com/hxx258456/fabric-gm/common/policies"
 	"github.com/hxx258456/fabric-gm/common/policies/inquire"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/msp"
 	"github.com/stretchr/testify/assert"
 )
 

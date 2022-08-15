@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"reflect"
 
-	lb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer/lifecycle"
 	"github.com/hxx258456/fabric-gm/common/util"
+	lb "github.com/hxx258456/fabric-protos-go-gm/peer/lifecycle"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"

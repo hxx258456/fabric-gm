@@ -7,12 +7,12 @@ SPDX-License-Identifier: Apache-2.0
 package protoutil
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/msp"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 )
 

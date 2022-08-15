@@ -9,7 +9,6 @@ package txvalidator_test
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/common/policydsl"
 	tmocks "github.com/hxx258456/fabric-gm/core/committer/txvalidator/mocks"
@@ -20,6 +19,7 @@ import (
 	validation "github.com/hxx258456/fabric-gm/core/handlers/validation/api"
 	"github.com/hxx258456/fabric-gm/msp"
 	. "github.com/hxx258456/fabric-gm/msp/mocks"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

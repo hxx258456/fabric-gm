@@ -10,7 +10,6 @@ import (
 	"fmt"
 	"reflect"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	commonerrors "github.com/hxx258456/fabric-gm/common/errors"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/core/committer/txvalidator/v20/plugindispatcher"
@@ -22,6 +21,7 @@ import (
 	v12 "github.com/hxx258456/fabric-gm/core/handlers/validation/builtin/v12"
 	v13 "github.com/hxx258456/fabric-gm/core/handlers/validation/builtin/v13"
 	v20 "github.com/hxx258456/fabric-gm/core/handlers/validation/builtin/v20"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/pkg/errors"
 )
 

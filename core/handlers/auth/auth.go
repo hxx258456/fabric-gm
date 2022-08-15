@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package auth
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 )
 
 // Filter defines an authentication filter that intercepts

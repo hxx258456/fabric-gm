@@ -9,13 +9,13 @@ package policies_test
 import (
 	"testing"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	mb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/hxx258456/fabric-gm/common/cauthdsl"
 	"github.com/hxx258456/fabric-gm/common/policies"
 	"github.com/hxx258456/fabric-gm/common/policydsl"
 	"github.com/hxx258456/fabric-gm/msp"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	mb "github.com/hxx258456/fabric-protos-go-gm/msp"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

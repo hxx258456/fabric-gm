@@ -12,9 +12,9 @@ import (
 	"math"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/queryresult"
 	"github.com/hxx258456/fabric-gm/core/chaincode"
 	"github.com/hxx258456/fabric-gm/core/chaincode/mock"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/queryresult"
 	"github.com/stretchr/testify/assert"
 )
 

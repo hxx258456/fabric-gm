@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 
 package protoext
 
-import "gitee.com/zhaochuninhefei/fabric-protos-go-gm/discovery"
+import "github.com/hxx258456/fabric-protos-go-gm/discovery"
 
 // ResponseConfigAt returns the ConfigResult at a given index in the Response,
 // or an Error if present.

@@ -9,9 +9,9 @@ package chaincode
 import (
 	"sync"
 
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	commonledger "github.com/hxx258456/fabric-gm/common/ledger"
 	"github.com/hxx258456/fabric-gm/core/common/ccprovider"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 )
 

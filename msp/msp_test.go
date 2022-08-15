@@ -23,7 +23,6 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/ccgo/sm2"
 	"github.com/hxx258456/ccgo/sm3"
@@ -33,6 +32,7 @@ import (
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
 	"github.com/hxx258456/fabric-gm/core/config/configtest"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/msp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

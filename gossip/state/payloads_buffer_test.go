@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	proto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
 	"github.com/hxx258456/fabric-gm/gossip/util"
+	proto "github.com/hxx258456/fabric-protos-go-gm/gossip"
 	"github.com/stretchr/testify/assert"
 )
 

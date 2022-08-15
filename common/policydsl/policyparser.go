@@ -13,10 +13,10 @@ import (
 	"strconv"
 	"strings"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	mb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/Knetic/govaluate"
 	"github.com/golang/protobuf/proto"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	mb "github.com/hxx258456/fabric-protos-go-gm/msp"
 )
 
 // Gate values

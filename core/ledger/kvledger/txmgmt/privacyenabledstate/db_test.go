@@ -13,7 +13,6 @@ import (
 	"io"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/common/ledger/testutil"
 	"github.com/hxx258456/fabric-gm/core/common/ccprovider"
 	"github.com/hxx258456/fabric-gm/core/ledger/cceventmgmt"
@@ -24,6 +23,7 @@ import (
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger/txmgmt/statedb/stateleveldb"
 	"github.com/hxx258456/fabric-gm/core/ledger/mock"
 	"github.com/hxx258456/fabric-gm/core/ledger/util"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/stretchr/testify/require"
 )
 

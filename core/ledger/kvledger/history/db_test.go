@@ -13,11 +13,6 @@ import (
 	"strconv"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/queryresult"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset/kvrwset"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	configtxtest "github.com/hxx258456/fabric-gm/common/configtx/test"
 	"github.com/hxx258456/fabric-gm/common/flogging"
@@ -25,6 +20,11 @@ import (
 	util2 "github.com/hxx258456/fabric-gm/common/util"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/internal/pkg/txflags"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/queryresult"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset/kvrwset"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

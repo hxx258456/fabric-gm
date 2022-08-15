@@ -9,9 +9,6 @@ package msgprocessor
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer/etcdraft"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
 	"github.com/hxx258456/fabric-gm/common/capabilities"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
@@ -21,6 +18,9 @@ import (
 	"github.com/hxx258456/fabric-gm/internal/configtxlator/update"
 	"github.com/hxx258456/fabric-gm/orderer/common/msgprocessor/mocks"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/orderer"
+	"github.com/hxx258456/fabric-protos-go-gm/orderer/etcdraft"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

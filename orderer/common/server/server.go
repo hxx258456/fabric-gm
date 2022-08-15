@@ -13,8 +13,6 @@ import (
 	"runtime/debug"
 	"time"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	ab "gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/common/deliver"
 	"github.com/hxx258456/fabric-gm/common/metrics"
@@ -24,6 +22,8 @@ import (
 	"github.com/hxx258456/fabric-gm/orderer/common/msgprocessor"
 	"github.com/hxx258456/fabric-gm/orderer/common/multichannel"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	ab "github.com/hxx258456/fabric-protos-go-gm/orderer"
 	"github.com/pkg/errors"
 )
 

@@ -11,9 +11,6 @@ import (
 	"fmt"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	mspprotos "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/bccsp"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
@@ -27,6 +24,9 @@ import (
 	"github.com/hxx258456/fabric-gm/internal/pkg/txflags"
 	"github.com/hxx258456/fabric-gm/msp"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	mspprotos "github.com/hxx258456/fabric-protos-go-gm/msp"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 )
 

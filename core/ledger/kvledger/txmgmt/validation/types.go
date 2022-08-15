@@ -7,10 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package validation
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/core/ledger/internal/version"
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger/txmgmt/privacyenabledstate"
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 )
 
 // block is used to used to hold the information from its proto format to a structure

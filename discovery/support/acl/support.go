@@ -7,11 +7,11 @@ SPDX-License-Identifier: Apache-2.0
 package acl
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/common/policies"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/msp"
 	"github.com/pkg/errors"
 )
 

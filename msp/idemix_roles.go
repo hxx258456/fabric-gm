@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 package msp
 
 import (
-	m "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
+	m "github.com/hxx258456/fabric-protos-go-gm/msp"
 )
 
 // Role : Represents a IdemixRole

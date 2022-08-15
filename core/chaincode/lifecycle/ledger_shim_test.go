@@ -12,9 +12,9 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/queryresult"
 	"github.com/hxx258456/fabric-gm/core/chaincode/lifecycle"
 	"github.com/hxx258456/fabric-gm/core/chaincode/lifecycle/mock"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/queryresult"
 )
 
 var _ = Describe("LedgerShims", func() {

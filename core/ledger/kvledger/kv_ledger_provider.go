@@ -12,7 +12,6 @@ import (
 	"os"
 	"path"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/common/ledger/blkstorage"
 	"github.com/hxx258456/fabric-gm/common/ledger/dataformat"
@@ -25,6 +24,7 @@ import (
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger/txmgmt/privacyenabledstate"
 	"github.com/hxx258456/fabric-gm/core/ledger/pvtdatastorage"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/pkg/errors"
 	"github.com/syndtr/goleveldb/leveldb"
 )

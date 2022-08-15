@@ -14,9 +14,9 @@ import (
 
 	http "github.com/hxx258456/ccgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/fabric-config-gm/protolator"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/ccgo/mux"
+	"github.com/hxx258456/fabric-config-gm/protolator"
 )
 
 func getMsgType(r *http.Request) (proto.Message, error) {

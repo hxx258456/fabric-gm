@@ -14,13 +14,13 @@ import (
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger/txmgmt/privacyenabledstate"
 	"github.com/hxx258456/fabric-gm/core/ledger/util"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/queryresult"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	commonledger "github.com/hxx258456/fabric-gm/common/ledger"
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger/txmgmt/queryutil"
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger/txmgmt/queryutil/mock"
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger/txmgmt/statedb"
 	statedbmock "github.com/hxx258456/fabric-gm/core/ledger/kvledger/txmgmt/statedb/mock"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/queryresult"
 	"github.com/stretchr/testify/require"
 )
 

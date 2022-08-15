@@ -9,10 +9,10 @@ package mocks
 import (
 	"testing"
 
-	proto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
 	"github.com/hxx258456/fabric-gm/gossip/api"
 	"github.com/hxx258456/fabric-gm/gossip/common"
 	"github.com/hxx258456/fabric-gm/gossip/discovery"
+	proto "github.com/hxx258456/fabric-protos-go-gm/gossip"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

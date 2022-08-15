@@ -7,14 +7,14 @@ SPDX-License-Identifier: Apache-2.0
 package kafka
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-config-gm/healthz"
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/saramagm/sarama"
+	"github.com/hxx258456/fabric-config-gm/healthz"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/common/metrics"
 	"github.com/hxx258456/fabric-gm/orderer/common/localconfig"
 	"github.com/hxx258456/fabric-gm/orderer/consensus"
 	"github.com/hxx258456/fabric-gm/orderer/consensus/inactive"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/saramagm/sarama"
 	"github.com/pkg/errors"
 )
 

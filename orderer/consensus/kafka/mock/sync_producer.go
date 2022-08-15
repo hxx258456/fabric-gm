@@ -4,7 +4,7 @@ package mock
 import (
 	"sync"
 
-	"gitee.com/zhaochuninhefei/saramagm/sarama"
+	"github.com/hxx258456/saramagm/sarama"
 )
 
 type SyncProducer struct {

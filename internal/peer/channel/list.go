@@ -10,11 +10,11 @@ import (
 	"context"
 	"fmt"
 
-	common2 "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/core/scc/cscc"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	common2 "github.com/hxx258456/fabric-protos-go-gm/common"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/spf13/cobra"
 )
 

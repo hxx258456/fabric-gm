@@ -15,13 +15,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
 	"github.com/hxx258456/ccgo/grpc"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/common/util"
 	"github.com/hxx258456/fabric-gm/internal/pkg/identity"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/orderer"
 	"github.com/pkg/errors"
 )
 

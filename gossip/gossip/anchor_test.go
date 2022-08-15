@@ -15,7 +15,6 @@ import (
 	"testing"
 	"time"
 
-	proto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
 	tls "github.com/hxx258456/ccgo/gmtls"
 	"github.com/hxx258456/ccgo/grpc"
 	"github.com/hxx258456/fabric-gm/common/util"
@@ -24,6 +23,7 @@ import (
 	"github.com/hxx258456/fabric-gm/gossip/protoext"
 	utilgossip "github.com/hxx258456/fabric-gm/gossip/util"
 	"github.com/hxx258456/fabric-gm/internal/pkg/comm"
+	proto "github.com/hxx258456/fabric-protos-go-gm/gossip"
 	"github.com/stretchr/testify/assert"
 )
 

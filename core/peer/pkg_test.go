@@ -13,9 +13,6 @@ import (
 	"testing"
 	"time"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	mspproto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	tls "github.com/hxx258456/ccgo/gmtls"
 	"github.com/hxx258456/ccgo/grpc"
 	"github.com/hxx258456/ccgo/grpc/credentials"
@@ -29,6 +26,9 @@ import (
 	"github.com/hxx258456/fabric-gm/internal/pkg/txflags"
 	"github.com/hxx258456/fabric-gm/msp"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	mspproto "github.com/hxx258456/fabric-protos-go-gm/msp"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

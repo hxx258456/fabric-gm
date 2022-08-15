@@ -9,7 +9,7 @@ package channelconfig
 import (
 	"testing"
 
-	ab "gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
+	ab "github.com/hxx258456/fabric-protos-go-gm/orderer"
 	"github.com/stretchr/testify/assert"
 )
 

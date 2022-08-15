@@ -9,9 +9,9 @@ package discovery
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/gossip/protoext"
+	"github.com/hxx258456/fabric-protos-go-gm/gossip"
 	"github.com/stretchr/testify/assert"
 )
 

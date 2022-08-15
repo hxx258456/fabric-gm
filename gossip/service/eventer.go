@@ -9,9 +9,9 @@ package service
 import (
 	"reflect"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/msp"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 )
 
 // Config enumerates the configuration methods required by gossip

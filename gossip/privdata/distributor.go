@@ -14,10 +14,6 @@ import (
 	"sync/atomic"
 	"time"
 
-	protosgossip "gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/transientstore"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/core/common/privdata"
 	"github.com/hxx258456/fabric-gm/gossip/api"
@@ -30,6 +26,10 @@ import (
 	"github.com/hxx258456/fabric-gm/gossip/util"
 	"github.com/hxx258456/fabric-gm/msp"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	protosgossip "github.com/hxx258456/fabric-protos-go-gm/gossip"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
+	"github.com/hxx258456/fabric-protos-go-gm/transientstore"
 	"github.com/pkg/errors"
 )
 

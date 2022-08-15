@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"unicode/utf8"
 
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/core/chaincode"
 	"github.com/hxx258456/fabric-gm/core/chaincode/lifecycle"
 	"github.com/hxx258456/fabric-gm/core/chaincode/mock"
 	"github.com/hxx258456/fabric-gm/core/common/ccprovider"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

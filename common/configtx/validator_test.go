@@ -11,10 +11,10 @@ import (
 	"strings"
 	"testing"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	mockpolicies "github.com/hxx258456/fabric-gm/common/configtx/mock"
 	"github.com/hxx258456/fabric-gm/common/policies"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/stretchr/testify/assert"
 )
 

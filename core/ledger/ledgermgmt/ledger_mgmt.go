@@ -11,13 +11,13 @@ import (
 	"fmt"
 	"sync"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/common/metrics"
 	"github.com/hxx258456/fabric-gm/core/common/ccprovider"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/core/ledger/cceventmgmt"
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/pkg/errors"
 )
 

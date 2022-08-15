@@ -7,11 +7,11 @@ SPDX-License-Identifier: Apache-2.0
 package raft
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
 	"github.com/hxx258456/fabric-gm/cmd/common/signer"
 	"github.com/hxx258456/fabric-gm/integration/nwo"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/orderer"
 	. "github.com/onsi/gomega"
 )
 

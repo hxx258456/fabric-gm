@@ -9,11 +9,11 @@ package tx_test
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/core/tx"
 	pkgtx "github.com/hxx258456/fabric-gm/pkg/tx"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"

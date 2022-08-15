@@ -16,13 +16,13 @@ import (
 	"testing"
 	"time"
 
-	proto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
 	tls "github.com/hxx258456/ccgo/gmtls"
 	"github.com/hxx258456/ccgo/grpc"
 	"github.com/hxx258456/ccgo/grpc/credentials"
 	"github.com/hxx258456/ccgo/sm2"
 	"github.com/hxx258456/ccgo/x509"
 	"github.com/hxx258456/fabric-gm/gossip/util"
+	proto "github.com/hxx258456/fabric-protos-go-gm/gossip"
 	"github.com/stretchr/testify/assert"
 )
 

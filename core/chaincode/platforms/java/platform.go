@@ -17,9 +17,9 @@ import (
 	"regexp"
 	"strings"
 
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/core/chaincode/platforms/util"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 )
 
 var logger = flogging.MustGetLogger("chaincode.platform.java")

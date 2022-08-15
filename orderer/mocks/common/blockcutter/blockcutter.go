@@ -9,8 +9,8 @@ package blockcutter
 import (
 	"sync"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/fabric-gm/common/flogging"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
 )
 
 var logger = flogging.MustGetLogger("orderer.mocks.common.blockcutter")

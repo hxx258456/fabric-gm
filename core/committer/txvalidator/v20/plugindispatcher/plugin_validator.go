@@ -10,7 +10,6 @@ import (
 	"fmt"
 	"sync"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	ledger2 "github.com/hxx258456/fabric-gm/common/ledger"
 	"github.com/hxx258456/fabric-gm/common/policies"
 	txvalidatorplugin "github.com/hxx258456/fabric-gm/core/committer/txvalidator/plugin"
@@ -23,6 +22,7 @@ import (
 	"github.com/hxx258456/fabric-gm/core/policy"
 	"github.com/hxx258456/fabric-gm/msp"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/pkg/errors"
 )
 

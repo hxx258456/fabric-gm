@@ -9,13 +9,13 @@ package builtin
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	commonerrors "github.com/hxx258456/fabric-gm/common/errors"
 	"github.com/hxx258456/fabric-gm/core/committer/txvalidator/plugin"
 	. "github.com/hxx258456/fabric-gm/core/handlers/validation/api"
 	vmocks "github.com/hxx258456/fabric-gm/core/handlers/validation/builtin/mocks"
 	"github.com/hxx258456/fabric-gm/core/handlers/validation/builtin/v12/mocks"
 	v20mocks "github.com/hxx258456/fabric-gm/core/handlers/validation/builtin/v20/mocks"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

@@ -11,13 +11,13 @@ import (
 	"testing"
 	"time"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/orderer/consensus/solo/mocks"
 	mockblockcutter "github.com/hxx258456/fabric-gm/orderer/mocks/common/blockcutter"
 	mockmultichannel "github.com/hxx258456/fabric-gm/orderer/mocks/common/multichannel"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -7,8 +7,6 @@ SPDX-License-Identifier: Apache-2.0
 package encoder
 
 import (
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/common/flogging"
@@ -21,6 +19,8 @@ import (
 	"github.com/hxx258456/fabric-gm/internal/pkg/identity"
 	"github.com/hxx258456/fabric-gm/msp"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 )
 

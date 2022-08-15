@@ -11,9 +11,9 @@ import (
 	"encoding/binary"
 	"math"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/core/ledger/internal/version"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset"
 	"github.com/pkg/errors"
 	"github.com/willf/bitset"
 )

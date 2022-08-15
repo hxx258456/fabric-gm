@@ -17,12 +17,12 @@ limitations under the License.
 package rwsetutil
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset/kvrwset"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/core/ledger/internal/version"
 	"github.com/hxx258456/fabric-gm/core/ledger/util"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset/kvrwset"
 )
 
 var logger = flogging.MustGetLogger("rwsetutil")

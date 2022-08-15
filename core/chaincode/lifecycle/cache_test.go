@@ -9,10 +9,6 @@ package lifecycle_test
 import (
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/queryresult"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset/kvrwset"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
-	lb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer/lifecycle"
 	"github.com/hxx258456/fabric-gm/common/chaincode"
 	commonledger "github.com/hxx258456/fabric-gm/common/ledger"
 	"github.com/hxx258456/fabric-gm/common/util"
@@ -24,6 +20,10 @@ import (
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	ledgermock "github.com/hxx258456/fabric-gm/core/ledger/mock"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/queryresult"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset/kvrwset"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
+	lb "github.com/hxx258456/fabric-protos-go-gm/peer/lifecycle"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

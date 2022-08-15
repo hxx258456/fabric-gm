@@ -19,7 +19,6 @@ import (
 	"testing"
 	"time"
 
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	docker "github.com/fsouza/go-dockerclient"
 	"github.com/hxx258456/fabric-gm/common/flogging/floggingtest"
 	"github.com/hxx258456/fabric-gm/common/metrics/disabled"
@@ -28,6 +27,7 @@ import (
 	"github.com/hxx258456/fabric-gm/core/chaincode/persistence"
 	"github.com/hxx258456/fabric-gm/core/container/ccintf"
 	"github.com/hxx258456/fabric-gm/core/container/dockercontroller/mock"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/stretchr/testify/assert"

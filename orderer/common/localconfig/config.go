@@ -11,12 +11,12 @@ import (
 	"sync"
 	"time"
 
-	"gitee.com/zhaochuninhefei/saramagm/sarama"
 	bccsp "github.com/hxx258456/fabric-gm/bccsp/factory"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/common/viperutil"
 	coreconfig "github.com/hxx258456/fabric-gm/core/config"
 	"github.com/hxx258456/fabric-gm/internal/pkg/comm"
+	"github.com/hxx258456/saramagm/sarama"
 	"github.com/spf13/viper"
 )
 

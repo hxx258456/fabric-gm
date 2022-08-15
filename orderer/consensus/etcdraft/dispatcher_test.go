@@ -9,10 +9,10 @@ package etcdraft_test
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/orderer/consensus/etcdraft"
 	"github.com/hxx258456/fabric-gm/orderer/consensus/etcdraft/mocks"
+	"github.com/hxx258456/fabric-protos-go-gm/orderer"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

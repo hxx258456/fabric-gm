@@ -10,8 +10,8 @@ import (
 	"os"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer/etcdraft"
 	"github.com/hxx258456/fabric-gm/core/config/configtest"
+	"github.com/hxx258456/fabric-protos-go-gm/orderer/etcdraft"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

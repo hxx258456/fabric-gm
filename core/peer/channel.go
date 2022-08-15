@@ -9,7 +9,6 @@ package peer
 import (
 	"sync"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/fabric-gm/bccsp"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/common/ledger/blockledger"
@@ -18,6 +17,7 @@ import (
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/core/transientstore"
 	"github.com/hxx258456/fabric-gm/msp"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 )
 
 // Channel manages objects and configuration associated with a Channel.

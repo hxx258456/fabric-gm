@@ -9,11 +9,11 @@ package etcdraft_test
 import (
 	"testing"
 
-	etcdraftproto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer/etcdraft"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/common/crypto/tlsgen"
 	"github.com/hxx258456/fabric-gm/orderer/consensus/etcdraft"
 	"github.com/hxx258456/fabric-gm/orderer/consensus/etcdraft/mocks"
+	etcdraftproto "github.com/hxx258456/fabric-protos-go-gm/orderer/etcdraft"
 	"github.com/stretchr/testify/require"
 	"go.etcd.io/etcd/raft/raftpb"
 )

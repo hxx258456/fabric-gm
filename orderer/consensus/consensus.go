@@ -7,12 +7,12 @@ SPDX-License-Identifier: Apache-2.0
 package consensus
 
 import (
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/internal/pkg/identity"
 	"github.com/hxx258456/fabric-gm/orderer/common/blockcutter"
 	"github.com/hxx258456/fabric-gm/orderer/common/msgprocessor"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
 )
 
 // Consenter defines the backing ordering mechanism.

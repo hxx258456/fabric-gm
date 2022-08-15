@@ -10,7 +10,6 @@ import (
 	"errors"
 	"fmt"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/fabric-gm/common/capabilities"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/common/configtx"
@@ -22,6 +21,7 @@ import (
 	"github.com/hxx258456/fabric-gm/orderer/common/types"
 	"github.com/hxx258456/fabric-gm/orderer/consensus"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
 )
 
 type mockConsenter struct {

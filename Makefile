@@ -45,9 +45,8 @@
 #   - verify - runs unit tests for only the changed package tree
 
 ALPINE_VER ?= 3.14
-# BASE_VERSION = 2.2.5
-# 基于fabric2.2.5版本的国密改造版本
-BASE_VERSION = 2.2.5-0.0.1
+# 基于fabric2.4.3版本的国密改造版本
+BASE_VERSION = 2.4.3-0.0.1
 
 # 3rd party image version
 # These versions are also set in the runners in ./integration/runners/
@@ -70,7 +69,7 @@ PROJECT_VERSION=$(BASE_VERSION)-snapshot-$(EXTRA_VERSION)
 TWO_DIGIT_VERSION = $(shell echo $(BASE_VERSION) | cut -d '.' -f 1,2)
 
 # PKGNAME = github.com/hyperledger/fabric
-PKGNAME = gitee.com/zhaochuninhefei/fabric-gm
+PKGNAME = github.com/hxx258456/fabric-gm
 # 平台架构，例: amd64
 ARCH=$(shell go env GOARCH)
 # 操作系统与平台架构，例: linux-amd64

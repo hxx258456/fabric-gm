@@ -10,12 +10,12 @@ import (
 	"os"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset/kvrwset"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/core/ledger/internal/version"
 	"github.com/hxx258456/fabric-gm/core/ledger/util"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset/kvrwset"
 	"github.com/stretchr/testify/require"
 )
 

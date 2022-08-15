@@ -12,10 +12,10 @@ import (
 	"fmt"
 	"time"
 
-	mspproto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/hxx258456/fabric-gm/common/policies"
 	"github.com/hxx258456/fabric-gm/msp"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	mspproto "github.com/hxx258456/fabric-protos-go-gm/msp"
 )
 
 type MockChannelPolicyManagerGetter struct {

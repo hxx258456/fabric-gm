@@ -9,12 +9,6 @@ package lifecycle_test
 import (
 	"fmt"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/queryresult"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset/kvrwset"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
-	lb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer/lifecycle"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	commonledger "github.com/hxx258456/fabric-gm/common/ledger"
 	"github.com/hxx258456/fabric-gm/common/util"
@@ -24,6 +18,12 @@ import (
 	"github.com/hxx258456/fabric-gm/core/peer"
 	"github.com/hxx258456/fabric-gm/gossip/privdata"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/queryresult"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset/kvrwset"
+	"github.com/hxx258456/fabric-protos-go-gm/msp"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
+	lb "github.com/hxx258456/fabric-protos-go-gm/peer/lifecycle"
 
 	"github.com/golang/protobuf/proto"
 

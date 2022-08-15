@@ -14,10 +14,6 @@ import (
 	"os"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset/kvrwset"
-	mspproto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
 	"github.com/hxx258456/fabric-gm/common/capabilities"
@@ -36,6 +32,10 @@ import (
 	mspmgmt "github.com/hxx258456/fabric-gm/msp/mgmt"
 	msptesttools "github.com/hxx258456/fabric-gm/msp/mgmt/testtools"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset/kvrwset"
+	mspproto "github.com/hxx258456/fabric-protos-go-gm/msp"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

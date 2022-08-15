@@ -15,9 +15,6 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/discovery"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/common/configtx"
@@ -27,6 +24,9 @@ import (
 	"github.com/hxx258456/fabric-gm/internal/configtxgen/encoder"
 	"github.com/hxx258456/fabric-gm/internal/configtxgen/genesisconfig"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/discovery"
+	"github.com/hxx258456/fabric-protos-go-gm/msp"
 	"github.com/onsi/gomega/gexec"
 	"github.com/stretchr/testify/assert"
 )

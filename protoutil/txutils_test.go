@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"testing"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 
 	"github.com/hxx258456/fabric-gm/protoutil"
 	"github.com/hxx258456/fabric-gm/protoutil/fakes"

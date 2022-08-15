@@ -7,10 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package chaincode_test
 
 import (
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/core/chaincode"
 	"github.com/hxx258456/fabric-gm/core/chaincode/mock"
 	"github.com/hxx258456/fabric-gm/core/common/ccprovider"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

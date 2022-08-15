@@ -15,7 +15,6 @@ import (
 	"sync/atomic"
 	"time"
 
-	pg "gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/ccgo/grpc"
 	"github.com/hxx258456/fabric-gm/gossip/api"
@@ -31,6 +30,7 @@ import (
 	"github.com/hxx258456/fabric-gm/gossip/metrics"
 	"github.com/hxx258456/fabric-gm/gossip/protoext"
 	"github.com/hxx258456/fabric-gm/gossip/util"
+	pg "github.com/hxx258456/fabric-protos-go-gm/gossip"
 	"github.com/pkg/errors"
 )
 

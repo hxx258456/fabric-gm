@@ -11,9 +11,6 @@ import (
 	"regexp"
 	"strings"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset/kvrwset"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/common/policydsl"
 	"github.com/hxx258456/fabric-gm/common/util"
 	validationState "github.com/hxx258456/fabric-gm/core/handlers/validation/api/state"
@@ -21,6 +18,9 @@ import (
 	"github.com/hxx258456/fabric-gm/core/peer"
 	"github.com/hxx258456/fabric-gm/gossip/privdata"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset/kvrwset"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 
 	"github.com/pkg/errors"
 )

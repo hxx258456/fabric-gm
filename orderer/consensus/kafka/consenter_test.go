@@ -12,9 +12,6 @@ import (
 	"testing"
 	"time"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	ab "gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
-	"gitee.com/zhaochuninhefei/saramagm/sarama"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/common/flogging"
@@ -24,6 +21,9 @@ import (
 	"github.com/hxx258456/fabric-gm/orderer/consensus/kafka/mock"
 	mockmultichannel "github.com/hxx258456/fabric-gm/orderer/mocks/common/multichannel"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	ab "github.com/hxx258456/fabric-protos-go-gm/orderer"
+	"github.com/hxx258456/saramagm/sarama"
 	"github.com/stretchr/testify/assert"
 )
 

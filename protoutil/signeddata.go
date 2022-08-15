@@ -10,8 +10,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/golang/protobuf/proto"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 )
 
 // SignedData is used to represent the general triplet required to verify a signature

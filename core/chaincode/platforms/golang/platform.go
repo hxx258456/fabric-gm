@@ -26,9 +26,9 @@ import (
 	"sort"
 	"strings"
 
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/core/chaincode/platforms/util"
 	"github.com/hxx258456/fabric-gm/internal/ccmetadata"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
 )
@@ -211,7 +211,7 @@ func getLDFlagsOpts() string {
 var buildScript = `
 set -e
 go env -w GOPROXY=https://goproxy.cn,direct
-go env -w GOPRIVATE=gitee.com/zhaochuninhefei
+go env -w GOPRIVATE=github.com/hxx258456
 if [ -f "/chaincode/input/src/go.mod" ] && [ -d "/chaincode/input/src/vendor" ]; then
     cd /chaincode/input/src
     GO111MODULE=on go build -v -mod=vendor %[1]s -o /chaincode/output/chaincode %[2]s

@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset/kvrwset"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/ccgo/sm3"
 	"github.com/hxx258456/fabric-gm/core/ledger/internal/version"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset/kvrwset"
 	"github.com/stretchr/testify/require"
 )
 

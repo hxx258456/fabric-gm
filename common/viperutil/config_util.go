@@ -18,10 +18,10 @@ import (
 	"strings"
 	"time"
 
-	"gitee.com/zhaochuninhefei/saramagm/sarama"
 	version "github.com/hashicorp/go-version"
 	"github.com/hxx258456/fabric-gm/bccsp/factory"
 	"github.com/hxx258456/fabric-gm/common/flogging"
+	"github.com/hxx258456/saramagm/sarama"
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"

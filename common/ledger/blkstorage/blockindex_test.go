@@ -14,7 +14,6 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/ccgo/sm3"
 	"github.com/hxx258456/fabric-gm/common/ledger/snapshot"
 	"github.com/hxx258456/fabric-gm/common/ledger/testutil"
@@ -23,6 +22,7 @@ import (
 	"github.com/hxx258456/fabric-gm/common/metrics/disabled"
 	"github.com/hxx258456/fabric-gm/internal/pkg/txflags"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/stretchr/testify/require"
 )
 

@@ -9,7 +9,7 @@ package protoext
 import (
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
+	"github.com/hxx258456/fabric-protos-go-gm/gossip"
 )
 
 // IsAliveMsg returns whether this GossipMessage is an AliveMessage

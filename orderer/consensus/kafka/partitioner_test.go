@@ -9,7 +9,7 @@ package kafka
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/saramagm/sarama"
+	"github.com/hxx258456/saramagm/sarama"
 	"github.com/stretchr/testify/assert"
 )
 

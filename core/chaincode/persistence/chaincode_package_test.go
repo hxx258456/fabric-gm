@@ -9,9 +9,9 @@ package persistence_test
 import (
 	"io/ioutil"
 
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/core/chaincode/persistence"
 	"github.com/hxx258456/fabric-gm/core/chaincode/persistence/mock"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"

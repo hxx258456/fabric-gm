@@ -12,11 +12,11 @@ import (
 	"strings"
 	"testing"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/golang/protobuf/proto"
 	http "github.com/hxx258456/ccgo/gmhttp"
 	"github.com/hxx258456/ccgo/gmhttp/httptest"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/stretchr/testify/assert"
 )
 

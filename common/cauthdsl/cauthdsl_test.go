@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	mb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/common/policydsl"
 	"github.com/hxx258456/fabric-gm/msp"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	mb "github.com/hxx258456/fabric-protos-go-gm/msp"
 	"github.com/stretchr/testify/assert"
 )
 

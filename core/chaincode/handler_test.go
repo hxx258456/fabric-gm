@@ -10,7 +10,6 @@ import (
 	"io"
 	"time"
 
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/common/metrics/metricsfakes"
 	"github.com/hxx258456/fabric-gm/common/util"
@@ -21,6 +20,7 @@ import (
 	"github.com/hxx258456/fabric-gm/core/common/ccprovider"
 	"github.com/hxx258456/fabric-gm/core/common/sysccprovider"
 	"github.com/hxx258456/fabric-gm/core/scc"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"

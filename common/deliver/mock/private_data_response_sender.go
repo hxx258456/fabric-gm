@@ -6,7 +6,7 @@ import (
 
 	"github.com/hxx258456/fabric-gm/common/deliver"
 	"github.com/hxx258456/fabric-gm/protoutil"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 )
 
 type PrivateDataResponseSender struct {

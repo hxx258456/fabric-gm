@@ -6,8 +6,8 @@ import (
 
 	"github.com/hxx258456/fabric-gm/core/chaincode/lifecycle"
 	"github.com/hxx258456/fabric-gm/core/ledger"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset/kvrwset"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset/kvrwset"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 )
 
 type LegacyDeployedCCInfoProvider struct {

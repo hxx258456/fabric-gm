@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"os"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	ab "gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
 	"github.com/hxx258456/ccgo/grpc"
 	"github.com/hxx258456/fabric-gm/bccsp/factory"
 	mspmgmt "github.com/hxx258456/fabric-gm/msp/mgmt"
 	"github.com/hxx258456/fabric-gm/orderer/common/localconfig"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	ab "github.com/hxx258456/fabric-protos-go-gm/orderer"
 )
 
 type broadcastClient struct {

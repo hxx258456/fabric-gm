@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package inactive
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/fabric-gm/orderer/common/types"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 )
 
 // Chain implements an inactive consenter.Chain

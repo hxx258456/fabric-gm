@@ -13,9 +13,9 @@ import (
 
 	tls "github.com/hxx258456/ccgo/gmtls"
 
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/core/config"
 	"github.com/hxx258456/fabric-gm/internal/pkg/comm"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
 )

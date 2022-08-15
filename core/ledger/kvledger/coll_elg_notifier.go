@@ -7,9 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package kvledger
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset/kvrwset"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/core/ledger"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset/kvrwset"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 )
 
 // collElgNotifier listens for the chaincode events and determines whether the peer has become eligible for one or more existing

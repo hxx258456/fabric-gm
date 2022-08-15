@@ -11,9 +11,9 @@ import (
 	"encoding/pem"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/ccgo/x509"
+	"github.com/hxx258456/fabric-protos-go-gm/msp"
 	"github.com/pkg/errors"
 )
 

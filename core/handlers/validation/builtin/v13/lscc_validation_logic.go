@@ -10,9 +10,6 @@ import (
 	"bytes"
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset/kvrwset"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	commonerrors "github.com/hxx258456/fabric-gm/common/errors"
 	"github.com/hxx258456/fabric-gm/core/common/ccprovider"
@@ -22,6 +19,9 @@ import (
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger/txmgmt/rwsetutil"
 	"github.com/hxx258456/fabric-gm/core/scc/lscc"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset/kvrwset"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 )
 

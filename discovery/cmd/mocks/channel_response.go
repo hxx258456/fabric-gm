@@ -5,8 +5,8 @@ package mocks
 import (
 	client "github.com/hxx258456/fabric-gm/discovery/client"
 
-	discovery "gitee.com/zhaochuninhefei/fabric-protos-go-gm/discovery"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
+	discovery "github.com/hxx258456/fabric-protos-go-gm/discovery"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 	mock "github.com/stretchr/testify/mock"
 )
 

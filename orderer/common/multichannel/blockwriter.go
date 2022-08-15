@@ -9,7 +9,6 @@ package multichannel
 import (
 	"sync"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/golang/protobuf/proto"
 	newchannelconfig "github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/common/configtx"
@@ -17,6 +16,7 @@ import (
 	"github.com/hxx258456/fabric-gm/common/util"
 	"github.com/hxx258456/fabric-gm/internal/pkg/identity"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
 )
 
 type blockWriterSupport interface {

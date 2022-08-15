@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"sync"
 
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	endorsement "github.com/hxx258456/fabric-gm/core/handlers/endorsement/api"
 	endorsement3 "github.com/hxx258456/fabric-gm/core/handlers/endorsement/api/identities"
 	"github.com/hxx258456/fabric-gm/core/transientstore"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 )
 

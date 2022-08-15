@@ -9,12 +9,12 @@ package kvledger
 import (
 	"bytes"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset"
 	"github.com/hxx258456/fabric-gm/common/ledger/blkstorage"
 	"github.com/hxx258456/fabric-gm/common/util"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger/txmgmt/rwsetutil"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset"
 )
 
 // constructValidAndInvalidPvtData computes the valid pvt data and hash mismatch list

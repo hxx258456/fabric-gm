@@ -7,10 +7,6 @@ SPDX-License-Identifier: Apache-2.0
 package test
 
 import (
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	mspproto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/common/genesis"
@@ -19,6 +15,10 @@ import (
 	"github.com/hxx258456/fabric-gm/internal/configtxgen/genesisconfig"
 	"github.com/hxx258456/fabric-gm/internal/pkg/txflags"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	mspproto "github.com/hxx258456/fabric-protos-go-gm/msp"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 )
 
 var logger = flogging.MustGetLogger("common.configtx.test")

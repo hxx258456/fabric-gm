@@ -10,12 +10,12 @@ import (
 	"fmt"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	protopeer "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/core/ledger/ledgermgmt"
 	"github.com/hxx258456/fabric-gm/core/ledger/mock"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	protopeer "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/stretchr/testify/assert"
 )
 

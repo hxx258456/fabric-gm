@@ -17,7 +17,7 @@ limitations under the License.
 package ledger
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 )
 
 // Ledger captures the methods that are common across the 'PeerLedger', 'OrdererLedger', and 'ValidatedLedger'

@@ -16,8 +16,6 @@ import (
 
 	tls "github.com/hxx258456/ccgo/gmtls"
 
-	pcommon "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/bccsp"
 	"github.com/hxx258456/fabric-gm/bccsp/factory"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
@@ -28,6 +26,8 @@ import (
 	"github.com/hxx258456/fabric-gm/msp"
 	mspmgmt "github.com/hxx258456/fabric-gm/msp/mgmt"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	pcommon "github.com/hxx258456/fabric-protos-go-gm/common"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"

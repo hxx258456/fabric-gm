@@ -9,9 +9,9 @@ package channelconfig
 import (
 	"fmt"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	mspprotos "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/hxx258456/fabric-gm/msp"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	mspprotos "github.com/hxx258456/fabric-protos-go-gm/msp"
 	"github.com/pkg/errors"
 )
 

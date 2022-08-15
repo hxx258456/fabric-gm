@@ -12,13 +12,13 @@ import (
 	"os"
 	"testing"
 
-	pcommon "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
 	"github.com/hxx258456/fabric-gm/internal/peer/common"
 	"github.com/hxx258456/fabric-gm/msp"
 	msptesttools "github.com/hxx258456/fabric-gm/msp/mgmt/testtools"
+	pcommon "github.com/hxx258456/fabric-protos-go-gm/common"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/stretchr/testify/assert"
 )
 

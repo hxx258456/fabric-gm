@@ -17,12 +17,12 @@ import (
 
 	"github.com/hxx258456/ccgo/x509"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/ccgo/grpc"
 	"github.com/hxx258456/ccgo/grpc/connectivity"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/internal/pkg/comm"
+	"github.com/hxx258456/fabric-protos-go-gm/orderer"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 )

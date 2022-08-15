@@ -13,10 +13,6 @@ import (
 	"syscall"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset/kvrwset"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	docker "github.com/fsouza/go-dockerclient"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
@@ -25,6 +21,10 @@ import (
 	"github.com/hxx258456/fabric-gm/common/policydsl"
 	"github.com/hxx258456/fabric-gm/integration/nwo"
 	"github.com/hxx258456/fabric-gm/integration/nwo/commands"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset/kvrwset"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

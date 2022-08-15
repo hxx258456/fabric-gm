@@ -11,9 +11,9 @@ import (
 	"encoding/asn1"
 	"math/big"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/ccgo/sm3"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/pkg/errors"
 )
 

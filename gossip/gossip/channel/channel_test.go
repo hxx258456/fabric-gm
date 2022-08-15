@@ -16,8 +16,6 @@ import (
 	"testing"
 	"time"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	proto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
 	gproto "github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/bccsp/factory"
 	"github.com/hxx258456/fabric-gm/common/flogging"
@@ -30,6 +28,8 @@ import (
 	"github.com/hxx258456/fabric-gm/gossip/metrics/mocks"
 	"github.com/hxx258456/fabric-gm/gossip/protoext"
 	"github.com/hxx258456/fabric-gm/gossip/util"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	proto "github.com/hxx258456/fabric-protos-go-gm/gossip"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"go.uber.org/zap"

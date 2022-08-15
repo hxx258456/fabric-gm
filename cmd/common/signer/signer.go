@@ -10,12 +10,12 @@ import (
 	"crypto/rand"
 	"io/ioutil"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/hxx258456/ccgo/sm2"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
 	"github.com/hxx258456/fabric-gm/bccsp/utils"
 	"github.com/hxx258456/fabric-gm/common/util"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/msp"
 	"github.com/pkg/errors"
 )
 

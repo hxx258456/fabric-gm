@@ -17,7 +17,6 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/golang/protobuf/proto"
 	tls "github.com/hxx258456/ccgo/gmtls"
 	"github.com/hxx258456/ccgo/grpc"
@@ -28,6 +27,7 @@ import (
 	"github.com/hxx258456/fabric-gm/internal/pkg/comm"
 	"github.com/hxx258456/fabric-gm/internal/pkg/comm/testpb"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/stretchr/testify/assert"
 )
 

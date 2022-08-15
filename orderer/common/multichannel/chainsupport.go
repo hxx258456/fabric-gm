@@ -7,7 +7,6 @@ SPDX-License-Identifier: Apache-2.0
 package multichannel
 
 import (
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/fabric-gm/bccsp"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/common/ledger/blockledger"
@@ -18,6 +17,7 @@ import (
 	"github.com/hxx258456/fabric-gm/orderer/common/types"
 	"github.com/hxx258456/fabric-gm/orderer/consensus"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/pkg/errors"
 )
 

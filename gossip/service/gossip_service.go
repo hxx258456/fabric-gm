@@ -10,8 +10,6 @@ import (
 	"fmt"
 	"sync"
 
-	gproto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
-	tspb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/transientstore"
 	"github.com/hxx258456/ccgo/grpc"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/core/committer"
@@ -37,6 +35,8 @@ import (
 	"github.com/hxx258456/fabric-gm/internal/pkg/peer/blocksprovider"
 	"github.com/hxx258456/fabric-gm/internal/pkg/peer/orderers"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	gproto "github.com/hxx258456/fabric-protos-go-gm/gossip"
+	tspb "github.com/hxx258456/fabric-protos-go-gm/transientstore"
 	"github.com/pkg/errors"
 )
 

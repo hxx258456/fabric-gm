@@ -11,7 +11,6 @@ import (
 	"os"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
 	"github.com/hxx258456/fabric-gm/common/capabilities"
@@ -23,6 +22,7 @@ import (
 	"github.com/hxx258456/fabric-gm/internal/configtxgen/encoder"
 	"github.com/hxx258456/fabric-gm/internal/configtxgen/genesisconfig"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

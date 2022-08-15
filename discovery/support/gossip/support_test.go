@@ -9,12 +9,12 @@ package gossip_test
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
 	gossipSupport "github.com/hxx258456/fabric-gm/discovery/support/gossip"
 	"github.com/hxx258456/fabric-gm/discovery/support/gossip/mocks"
 	"github.com/hxx258456/fabric-gm/gossip/common"
 	"github.com/hxx258456/fabric-gm/gossip/discovery"
 	"github.com/hxx258456/fabric-gm/gossip/protoext"
+	"github.com/hxx258456/fabric-protos-go-gm/gossip"
 	"github.com/stretchr/testify/assert"
 )
 

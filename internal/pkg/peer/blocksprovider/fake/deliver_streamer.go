@@ -5,7 +5,7 @@ import (
 	"context"
 	"sync"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
+	"github.com/hxx258456/fabric-protos-go-gm/orderer"
 	"github.com/hxx258456/fabric-gm/internal/pkg/peer/blocksprovider"
 	"github.com/hxx258456/ccgo/grpc"
 )

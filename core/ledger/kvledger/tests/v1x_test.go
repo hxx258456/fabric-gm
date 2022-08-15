@@ -14,14 +14,14 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	protopeer "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/common/ledger/testutil"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger"
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger/txmgmt/statedb/statecouchdb"
 	"github.com/hxx258456/fabric-gm/core/ledger/mock"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	protopeer "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/stretchr/testify/require"
 )
 

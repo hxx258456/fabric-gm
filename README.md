@@ -1,7 +1,7 @@
 fabric-gm
 ============================
 
-基于fabric`2.2.5`版本的国密改造。
+基于fabric`2.4.3`版本的国密改造。
 
 # 编译
 本地事先准备好go环境与docker环境,如:
@@ -22,7 +22,7 @@ make docker
 ```
 
 # 测试
-fabric-gm的测试需要国密改造后的`fabric-samples`，参考: `https://gitee.com/zhaochuninhefei/fabric-samples-gm`。
+fabric-gm的测试需要国密改造后的`fabric-samples-gm`，参考: `https://github.com/hxx258456/fabric-samples-gm`。
 
 
 # 版权声明

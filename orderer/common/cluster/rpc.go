@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
 	"github.com/hxx258456/ccgo/grpc"
 	"github.com/hxx258456/fabric-gm/common/flogging"
+	"github.com/hxx258456/fabric-protos-go-gm/orderer"
 	"github.com/pkg/errors"
 	"go.uber.org/zap/zapcore"
 )

@@ -12,10 +12,8 @@ import (
 	"strconv"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-chaincode-go-gm/shim"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/transientstore"
 	"github.com/golang/protobuf/proto"
+	"github.com/hxx258456/fabric-chaincode-go-gm/shim"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/common/util"
 	"github.com/hxx258456/fabric-gm/core/chaincode/lifecycle"
@@ -24,6 +22,8 @@ import (
 	"github.com/hxx258456/fabric-gm/internal/pkg/identity"
 	"github.com/hxx258456/fabric-gm/msp"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
+	"github.com/hxx258456/fabric-protos-go-gm/transientstore"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 )

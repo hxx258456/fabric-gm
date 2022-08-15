@@ -11,7 +11,6 @@ import (
 	"sync"
 	"sync/atomic"
 
-	proto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
 	"github.com/hxx258456/fabric-gm/gossip/api"
 	"github.com/hxx258456/fabric-gm/gossip/comm"
 	"github.com/hxx258456/fabric-gm/gossip/common"
@@ -19,6 +18,7 @@ import (
 	"github.com/hxx258456/fabric-gm/gossip/gossip/channel"
 	"github.com/hxx258456/fabric-gm/gossip/metrics"
 	"github.com/hxx258456/fabric-gm/gossip/protoext"
+	proto "github.com/hxx258456/fabric-protos-go-gm/gossip"
 )
 
 type channelState struct {

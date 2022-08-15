@@ -14,9 +14,6 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/queryresult"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
 	configtxtest "github.com/hxx258456/fabric-gm/common/configtx/test"
@@ -31,6 +28,9 @@ import (
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger/msgs"
 	"github.com/hxx258456/fabric-gm/core/ledger/mock"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/queryresult"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/stretchr/testify/require"
 )
 

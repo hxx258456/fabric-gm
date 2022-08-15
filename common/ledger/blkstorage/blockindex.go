@@ -12,13 +12,13 @@ import (
 	"path/filepath"
 	"unicode/utf8"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/common/ledger/snapshot"
 	"github.com/hxx258456/fabric-gm/common/ledger/util"
 	"github.com/hxx258456/fabric-gm/common/ledger/util/leveldbhelper"
 	"github.com/hxx258456/fabric-gm/internal/pkg/txflags"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 )
 

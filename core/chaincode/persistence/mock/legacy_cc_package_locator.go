@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/hxx258456/fabric-gm/core/chaincode/persistence"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 )
 
 type LegacyCCPackageLocator struct {

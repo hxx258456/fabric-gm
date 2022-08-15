@@ -4,7 +4,7 @@ package fake
 import (
 	"sync"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
+	"github.com/hxx258456/fabric-protos-go-gm/gossip"
 	"github.com/hxx258456/fabric-gm/internal/pkg/peer/blocksprovider"
 )
 

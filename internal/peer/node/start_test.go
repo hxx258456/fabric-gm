@@ -14,12 +14,12 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/ccgo/grpc"
 	"github.com/hxx258456/fabric-gm/core/handlers/library"
 	"github.com/hxx258456/fabric-gm/core/testutil"
 	"github.com/hxx258456/fabric-gm/internal/peer/node/mock"
 	msptesttools "github.com/hxx258456/fabric-gm/msp/mgmt/testtools"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/mitchellh/mapstructure"
 	. "github.com/onsi/gomega"
 	"github.com/spf13/viper"

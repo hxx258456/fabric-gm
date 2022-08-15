@@ -2,7 +2,7 @@
 
 package mocks
 
-import common "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
+import common "github.com/hxx258456/fabric-protos-go-gm/common"
 import ledger "github.com/hxx258456/fabric-gm/core/ledger"
 import mock "github.com/stretchr/testify/mock"
 

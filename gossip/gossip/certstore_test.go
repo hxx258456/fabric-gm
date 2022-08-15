@@ -13,7 +13,6 @@ import (
 	"testing"
 	"time"
 
-	proto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
 	"github.com/hxx258456/fabric-gm/gossip/api"
 	"github.com/hxx258456/fabric-gm/gossip/comm"
 	"github.com/hxx258456/fabric-gm/gossip/common"
@@ -23,6 +22,7 @@ import (
 	"github.com/hxx258456/fabric-gm/gossip/identity"
 	"github.com/hxx258456/fabric-gm/gossip/protoext"
 	"github.com/hxx258456/fabric-gm/gossip/util"
+	proto "github.com/hxx258456/fabric-protos-go-gm/gossip"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

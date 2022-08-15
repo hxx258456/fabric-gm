@@ -9,12 +9,12 @@ package mock
 import (
 	"time"
 
-	proto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
 	"github.com/hxx258456/fabric-gm/gossip/api"
 	"github.com/hxx258456/fabric-gm/gossip/comm"
 	"github.com/hxx258456/fabric-gm/gossip/common"
 	"github.com/hxx258456/fabric-gm/gossip/protoext"
 	"github.com/hxx258456/fabric-gm/gossip/util"
+	proto "github.com/hxx258456/fabric-protos-go-gm/gossip"
 )
 
 // Mock which aims to simulate socket

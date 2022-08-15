@@ -11,9 +11,6 @@ import (
 	"sync"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
 	"github.com/hxx258456/ccgo/x509"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	gossipcommon "github.com/hxx258456/fabric-gm/gossip/common"
@@ -21,6 +18,9 @@ import (
 	"github.com/hxx258456/fabric-gm/internal/pkg/peer/blocksprovider/fake"
 	"github.com/hxx258456/fabric-gm/internal/pkg/peer/orderers"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/gossip"
+	"github.com/hxx258456/fabric-protos-go-gm/orderer"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 

@@ -9,9 +9,9 @@ package protoext
 import (
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
 	"github.com/hxx258456/fabric-gm/gossip/api"
 	"github.com/hxx258456/fabric-gm/gossip/common"
+	"github.com/hxx258456/fabric-protos-go-gm/gossip"
 )
 
 // ReceivedMessage is a GossipMessage wrapper that

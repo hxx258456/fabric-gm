@@ -7,14 +7,14 @@ SPDX-License-Identifier: Apache-2.0
 package lifecycle_test
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
-	lb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer/lifecycle"
 	"github.com/hxx258456/fabric-gm/common/chaincode"
 	"github.com/hxx258456/fabric-gm/common/policydsl"
 	"github.com/hxx258456/fabric-gm/core/chaincode/lifecycle"
 	"github.com/hxx258456/fabric-gm/core/chaincode/lifecycle/mock"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/msp"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
+	lb "github.com/hxx258456/fabric-protos-go-gm/peer/lifecycle"
 	"github.com/pkg/errors"
 
 	"github.com/hxx258456/fabric-gm/protoutil"

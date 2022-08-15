@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"os"
 
-	"gitee.com/zhaochuninhefei/fabric-chaincode-go-gm/shim"
+	"github.com/hxx258456/fabric-chaincode-go-gm/shim"
 	"github.com/hxx258456/fabric-gm/integration/lifecycle/chaincode/callee"
 )
 

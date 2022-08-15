@@ -10,9 +10,9 @@ import (
 	"bytes"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 )
 
 // More duplicate utility which should go away, but the utils are a bit of a mess right now with import cycles

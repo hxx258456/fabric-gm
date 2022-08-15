@@ -9,12 +9,12 @@ package etcdraft
 import (
 	"encoding/pem"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/fabric-gm/bccsp"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/orderer/common/cluster"
 	"github.com/hxx258456/fabric-gm/orderer/common/localconfig"
 	"github.com/hxx258456/fabric-gm/orderer/consensus"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/pkg/errors"
 )
 

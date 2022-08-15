@@ -9,7 +9,6 @@ package testdata
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/golang/protobuf/proto"
 	validation "github.com/hxx258456/fabric-gm/core/handlers/validation/api"
 	. "github.com/hxx258456/fabric-gm/core/handlers/validation/api/capabilities"
@@ -17,6 +16,7 @@ import (
 	. "github.com/hxx258456/fabric-gm/core/handlers/validation/api/policies"
 	. "github.com/hxx258456/fabric-gm/core/handlers/validation/api/state"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

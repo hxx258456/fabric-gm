@@ -9,7 +9,7 @@ package mock
 import (
 	"fmt"
 
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 )
 
 //MockPeerCCSupport provides CC support for peer interfaces.

@@ -4,7 +4,7 @@ package mock
 import (
 	"sync"
 
-	"gitee.com/zhaochuninhefei/fabric-config-gm/healthz"
+	"github.com/hxx258456/fabric-config-gm/healthz"
 )
 
 type HealthChecker struct {

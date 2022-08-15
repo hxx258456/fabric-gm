@@ -17,7 +17,6 @@ import (
 
 	http "github.com/hxx258456/ccgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/bccsp/factory"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
@@ -41,6 +40,7 @@ import (
 	server_mocks "github.com/hxx258456/fabric-gm/orderer/common/server/mocks"
 	"github.com/hxx258456/fabric-gm/orderer/consensus"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gexec"
 	"github.com/pkg/errors"

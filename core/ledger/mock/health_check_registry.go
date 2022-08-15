@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/hxx258456/fabric-gm/core/ledger"
-	"gitee.com/zhaochuninhefei/fabric-config-gm/healthz"
+	"github.com/hxx258456/fabric-config-gm/healthz"
 )
 
 type HealthCheckRegistry struct {

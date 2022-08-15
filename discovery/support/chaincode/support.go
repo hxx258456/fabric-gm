@@ -7,12 +7,12 @@ SPDX-License-Identifier: Apache-2.0
 package chaincode
 
 import (
-	common2 "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/common/chaincode"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/common/policies"
 	"github.com/hxx258456/fabric-gm/common/policies/inquire"
+	common2 "github.com/hxx258456/fabric-protos-go-gm/common"
 )
 
 var logger = flogging.MustGetLogger("discovery.DiscoverySupport")

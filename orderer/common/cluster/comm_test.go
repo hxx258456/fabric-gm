@@ -17,8 +17,6 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/ccgo/grpc"
 	"github.com/hxx258456/ccgo/x509"
@@ -31,6 +29,8 @@ import (
 	comm_utils "github.com/hxx258456/fabric-gm/internal/pkg/comm"
 	"github.com/hxx258456/fabric-gm/orderer/common/cluster"
 	"github.com/hxx258456/fabric-gm/orderer/common/cluster/mocks"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/orderer"
 	"github.com/onsi/gomega"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"

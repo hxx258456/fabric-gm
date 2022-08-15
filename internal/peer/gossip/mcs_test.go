@@ -13,9 +13,6 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	pmsp "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
-	protospeer "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/ccgo/sm3"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
@@ -27,6 +24,9 @@ import (
 	"github.com/hxx258456/fabric-gm/msp"
 	"github.com/hxx258456/fabric-gm/msp/mgmt"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	pmsp "github.com/hxx258456/fabric-protos-go-gm/msp"
+	protospeer "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

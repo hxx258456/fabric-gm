@@ -21,12 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-chaincode-go-gm/shim"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	plgr "gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/queryresult"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	docker "github.com/fsouza/go-dockerclient"
 	"github.com/golang/protobuf/proto"
+	"github.com/hxx258456/fabric-chaincode-go-gm/shim"
 	"github.com/hxx258456/fabric-gm/bccsp/factory"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
 	"github.com/hxx258456/fabric-gm/common/crypto/tlsgen"
@@ -61,6 +58,9 @@ import (
 	mspmgmt "github.com/hxx258456/fabric-gm/msp/mgmt"
 	msptesttools "github.com/hxx258456/fabric-gm/msp/mgmt/testtools"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	plgr "github.com/hxx258456/fabric-protos-go-gm/ledger/queryresult"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

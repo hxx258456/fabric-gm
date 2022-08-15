@@ -19,10 +19,10 @@ package support
 import (
 	"sync"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/msp"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 )
 
 type Support struct {

@@ -4,7 +4,7 @@ package mocks
 
 import (
 	errors "github.com/hxx258456/fabric-gm/common/errors"
-	common "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
+	common "github.com/hxx258456/fabric-protos-go-gm/common"
 
 	mock "github.com/stretchr/testify/mock"
 )

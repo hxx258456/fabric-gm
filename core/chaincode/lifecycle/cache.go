@@ -12,13 +12,13 @@ import (
 	"strconv"
 	"sync"
 
-	lb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer/lifecycle"
 	"github.com/hxx258456/fabric-gm/common/chaincode"
 	"github.com/hxx258456/fabric-gm/common/util"
 	"github.com/hxx258456/fabric-gm/core/chaincode/persistence"
 	"github.com/hxx258456/fabric-gm/core/container/externalbuilder"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	lb "github.com/hxx258456/fabric-protos-go-gm/peer/lifecycle"
 
 	"github.com/pkg/errors"
 )

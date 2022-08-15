@@ -10,9 +10,9 @@ import (
 	"math"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/core/common/privdata"
 	"github.com/hxx258456/fabric-gm/core/ledger/pvtdatapolicy/mock"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/stretchr/testify/require"
 )
 

@@ -10,8 +10,6 @@ import (
 	"fmt"
 	"regexp"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	commonerrors "github.com/hxx258456/fabric-gm/common/errors"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/core/common/validation/statebased"
@@ -20,6 +18,8 @@ import (
 	vp "github.com/hxx258456/fabric-gm/core/handlers/validation/api/policies"
 	vs "github.com/hxx258456/fabric-gm/core/handlers/validation/api/state"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 )
 
 var logger = flogging.MustGetLogger("vscc")

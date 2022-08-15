@@ -9,10 +9,10 @@ package inquire
 import (
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/common/graph"
 	"github.com/hxx258456/fabric-gm/common/policies"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 )
 
 var logger = flogging.MustGetLogger("policies.inquire")

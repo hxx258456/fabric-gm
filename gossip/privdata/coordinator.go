@@ -9,10 +9,6 @@ package privdata
 import (
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
-	protostransientstore "gitee.com/zhaochuninhefei/fabric-protos-go-gm/transientstore"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/core/committer"
 	"github.com/hxx258456/fabric-gm/core/committer/txvalidator"
@@ -24,6 +20,10 @@ import (
 	privdatacommon "github.com/hxx258456/fabric-gm/gossip/privdata/common"
 	"github.com/hxx258456/fabric-gm/gossip/util"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
+	protostransientstore "github.com/hxx258456/fabric-protos-go-gm/transientstore"
 	"github.com/pkg/errors"
 )
 

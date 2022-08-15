@@ -9,10 +9,10 @@ package kafka
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/saramagm/sarama"
 	tls "github.com/hxx258456/ccgo/gmtls"
 	localconfig "github.com/hxx258456/fabric-gm/orderer/common/localconfig"
 	"github.com/hxx258456/fabric-gm/orderer/mocks/util"
+	"github.com/hxx258456/saramagm/sarama"
 	"github.com/stretchr/testify/assert"
 )
 

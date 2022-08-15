@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
 	"github.com/hxx258456/fabric-gm/internal/peer/common"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

@@ -10,9 +10,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	proto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
 	"github.com/hxx258456/fabric-gm/common/metrics"
 	"github.com/hxx258456/fabric-gm/gossip/util"
+	proto "github.com/hxx258456/fabric-protos-go-gm/gossip"
 )
 
 // PayloadsBuffer is used to store payloads into which used to

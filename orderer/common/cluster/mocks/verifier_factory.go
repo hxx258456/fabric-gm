@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	common "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
+	common "github.com/hxx258456/fabric-protos-go-gm/common"
 	cluster "github.com/hxx258456/fabric-gm/orderer/common/cluster"
 
 	mock "github.com/stretchr/testify/mock"

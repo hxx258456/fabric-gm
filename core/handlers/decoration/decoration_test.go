@@ -10,7 +10,7 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/stretchr/testify/assert"
 )
 

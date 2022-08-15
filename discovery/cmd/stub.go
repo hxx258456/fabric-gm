@@ -9,12 +9,12 @@ package discovery
 import (
 	"context"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/discovery"
 	"github.com/hxx258456/fabric-gm/cmd/common"
 	"github.com/hxx258456/fabric-gm/cmd/common/comm"
 	"github.com/hxx258456/fabric-gm/cmd/common/signer"
 	discoveryclient "github.com/hxx258456/fabric-gm/discovery/client"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/discovery"
 	"github.com/pkg/errors"
 )
 

@@ -9,8 +9,6 @@ package txmgr
 import (
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/queryresult"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset/kvrwset"
 	commonledger "github.com/hxx258456/fabric-gm/common/ledger"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/core/ledger/internal/version"
@@ -18,6 +16,8 @@ import (
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger/txmgmt/statedb"
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger/txmgmt/statemetadata"
 	"github.com/hxx258456/fabric-gm/core/ledger/util"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/queryresult"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset/kvrwset"
 	"github.com/pkg/errors"
 )
 

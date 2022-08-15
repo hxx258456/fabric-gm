@@ -20,7 +20,7 @@ import (
 
 	http "github.com/hxx258456/ccgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/fabric-config-gm/healthz"
+	"github.com/hxx258456/fabric-config-gm/healthz"
 	"github.com/hxx258456/fabric-gm/common/metrics/disabled"
 	"github.com/hxx258456/fabric-gm/common/metrics/prometheus"
 	"github.com/hxx258456/fabric-gm/common/metrics/statsd"

@@ -4,10 +4,6 @@ go 1.17
 
 require (
 	code.cloudfoundry.org/clock v1.0.0
-	gitee.com/zhaochuninhefei/fabric-chaincode-go-gm v0.0.5
-	gitee.com/zhaochuninhefei/fabric-config-gm v0.0.4
-	gitee.com/zhaochuninhefei/fabric-protos-go-gm v0.0.3
-	gitee.com/zhaochuninhefei/saramagm v0.0.4
 	gitee.com/zhaochuninhefei/zcgolog v0.0.14
 	github.com/Knetic/govaluate v3.0.1-0.20171022003610-9aa49832a739+incompatible
 	github.com/VictoriaMetrics/fastcache v1.9.0
@@ -16,7 +12,11 @@ require (
 	github.com/go-kit/kit v0.10.0
 	github.com/golang/protobuf v1.5.2
 	github.com/hashicorp/go-version v1.4.0
-	github.com/hxx258456/ccgo v0.0.0-20220718072410-ec1922a83b74
+	github.com/hxx258456/ccgo v0.0.0-20220815135058-aea1800993ba
+	github.com/hxx258456/fabric-chaincode-go-gm v0.0.0-20220815143232-1200cd9c846c
+	github.com/hxx258456/fabric-config-gm v0.0.0-20220815142458-b1b4f8be0cdf
+	github.com/hxx258456/fabric-protos-go-gm v0.0.0-20220815141714-2836819001d3
+	github.com/hxx258456/saramagm v0.0.0-20220815144051-a189b6380c79
 	github.com/hyperledger/fabric-amcl v0.0.0-20210603140002-2670f91851c8
 	github.com/kr/pretty v0.3.0
 	github.com/miekg/pkcs11 v1.1.1
@@ -43,7 +43,6 @@ require (
 )
 
 require (
-	gitee.com/zhaochuninhefei/gmgo v0.0.17 // indirect
 	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/BurntSushi/toml v0.3.1 // indirect
 	github.com/DataDog/zstd v1.5.0 // indirect
@@ -112,13 +111,7 @@ require (
 )
 
 replace (
-	// gitee.com/zhaochuninhefei/fabric-chaincode-go-gm => /home/zhaochun/work/sources/gcbaas/fabric-chaincode-go-gm
-	// gitee.com/zhaochuninhefei/fabric-config-gm => /home/zhaochun/work/sources/gcbaas/fabric-config-gm
-	// gitee.com/zhaochuninhefei/fabric-protos-go-gm => /home/zhaochun/work/sources/gcbaas/fabric-protos-go-gm
-	// gitee.com/zhaochuninhefei/gmgo => /home/zhaochun/work/sources/gm-zc/gmgo
-	// gitee.com/zhaochuninhefei/saramagm => /home/zhaochun/work/sources/gcbaas/saramagm
 	github.com/go-kit/kit => github.com/go-kit/kit v0.8.0
-	// github.com/hyperledger/fabric-protos-go => github.com/hyperledger/fabric-protos-go v0.0.0-20200506201313-25f6564b9ac4
 	github.com/mitchellh/mapstructure => github.com/mitchellh/mapstructure v1.3.3
 	github.com/spf13/viper => github.com/spf13/viper v0.0.0-20150908122457-1967d93db724
 	go.etcd.io/etcd => go.etcd.io/etcd v0.5.0-alpha.5.0.20181228115726-23731bf9ba55

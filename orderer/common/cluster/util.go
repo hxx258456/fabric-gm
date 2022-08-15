@@ -17,11 +17,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-config-gm/protolator"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	tls "github.com/hxx258456/ccgo/gmtls"
 	"github.com/hxx258456/ccgo/grpc"
 	"github.com/hxx258456/ccgo/x509"
+	"github.com/hxx258456/fabric-config-gm/protolator"
 	"github.com/hxx258456/fabric-gm/bccsp"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/common/configtx"
@@ -30,6 +29,7 @@ import (
 	"github.com/hxx258456/fabric-gm/common/util"
 	"github.com/hxx258456/fabric-gm/internal/pkg/comm"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/pkg/errors"
 )
 

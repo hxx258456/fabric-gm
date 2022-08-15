@@ -7,11 +7,11 @@ SPDX-License-Identifier: Apache-2.0
 package pvtdatastorage
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/common/ledger/util/leveldbhelper"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/core/ledger/internal/version"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset"
 )
 
 func v11Format(datakeyBytes []byte) (bool, error) {

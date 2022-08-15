@@ -9,9 +9,9 @@ package protoext_test
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/discovery"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/discovery/protoext"
+	"github.com/hxx258456/fabric-protos-go-gm/discovery"
 	"github.com/stretchr/testify/assert"
 )
 

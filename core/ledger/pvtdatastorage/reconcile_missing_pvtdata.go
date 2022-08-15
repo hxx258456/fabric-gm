@@ -7,9 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package pvtdatastorage
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset"
 	"github.com/hxx258456/fabric-gm/common/ledger/util/leveldbhelper"
 	"github.com/hxx258456/fabric-gm/core/ledger"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset"
 	"github.com/pkg/errors"
 	"github.com/willf/bitset"
 )

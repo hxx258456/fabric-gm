@@ -7,8 +7,6 @@ SPDX-License-Identifier: Apache-2.0
 package kvledger
 
 import (
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/queryresult"
 	"github.com/hxx258456/fabric-gm/bccsp/factory"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	commonledger "github.com/hxx258456/fabric-gm/common/ledger"
@@ -16,6 +14,8 @@ import (
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger/txmgmt/statedb"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/queryresult"
 	"github.com/pkg/errors"
 )
 

@@ -927,7 +927,7 @@ func TestKeyImportFromX509Sm2PublicKey(t *testing.T) {
 			ExtraNames: []pkix.AttributeTypeAndValue{
 				{
 					Type:  []int{2, 5, 4, 42},
-					Value: "zhaochun",
+					Value: "s1ren",
 				},
 				// This should override the Country, above.
 				{
@@ -1076,7 +1076,7 @@ func TestKeyImportFromX509Sm2PublicKey(t *testing.T) {
 // 			ExtraNames: []pkix.AttributeTypeAndValue{
 // 				{
 // 					Type:  []int{2, 5, 4, 42},
-// 					Value: "zhaochun",
+// 					Value: "s1ren",
 // 				},
 // 				// This should override the Country, above.
 // 				{

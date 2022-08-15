@@ -10,12 +10,12 @@ import (
 	"bytes"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/common/chaincode"
 	cc "github.com/hxx258456/fabric-gm/core/cclifecycle"
 	"github.com/hxx258456/fabric-gm/core/cclifecycle/mocks"
 	"github.com/hxx258456/fabric-gm/core/common/ccprovider"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

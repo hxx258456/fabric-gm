@@ -11,13 +11,13 @@ import (
 	"fmt"
 	"strings"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/ccgo/x509"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	mspi "github.com/hxx258456/fabric-gm/msp"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/msp"
 	"github.com/pkg/errors"
 	"go.uber.org/zap/zapcore"
 )

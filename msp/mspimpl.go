@@ -14,13 +14,13 @@ import (
 	"encoding/pem"
 	"strings"
 
-	m "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/golang/protobuf/proto"
 	gmx509 "github.com/hxx258456/ccgo/x509"
 	"github.com/hxx258456/fabric-gm/bccsp"
 	"github.com/hxx258456/fabric-gm/bccsp/factory"
 	"github.com/hxx258456/fabric-gm/bccsp/signer"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
+	m "github.com/hxx258456/fabric-protos-go-gm/msp"
 	"github.com/pkg/errors"
 )
 

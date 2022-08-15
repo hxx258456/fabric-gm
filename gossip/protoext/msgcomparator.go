@@ -9,8 +9,8 @@ package protoext
 import (
 	"bytes"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
 	"github.com/hxx258456/fabric-gm/gossip/common"
+	"github.com/hxx258456/fabric-protos-go-gm/gossip"
 )
 
 // NewGossipMessageComparator creates a MessageReplacingPolicy given a maximum number of blocks to hold

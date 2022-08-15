@@ -15,7 +15,6 @@ import (
 	"runtime"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/ccgo/grpc"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
 	configtxtest "github.com/hxx258456/fabric-gm/common/configtx/test"
@@ -40,6 +39,7 @@ import (
 	"github.com/hxx258456/fabric-gm/internal/pkg/comm"
 	"github.com/hxx258456/fabric-gm/msp/mgmt"
 	msptesttools "github.com/hxx258456/fabric-gm/msp/mgmt/testtools"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

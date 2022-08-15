@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package decorator
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/core/handlers/decoration"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 )
 
 // NewDecorator creates a new decorator

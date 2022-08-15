@@ -7,9 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package chaincode
 
 import (
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	commonledger "github.com/hxx258456/fabric-gm/common/ledger"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 )
 
 type QueryResponseGenerator struct {

@@ -14,10 +14,10 @@ import (
 	"strings"
 	"syscall"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	docker "github.com/fsouza/go-dockerclient"
 	"github.com/hxx258456/fabric-gm/integration/nwo"
 	"github.com/hxx258456/fabric-gm/integration/nwo/commands"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"

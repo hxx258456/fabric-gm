@@ -2,7 +2,7 @@
 
 package mocks
 
-import fabric_protos_gomsp "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
+import fabric_protos_gomsp "github.com/hxx258456/fabric-protos-go-gm/msp"
 import mock "github.com/stretchr/testify/mock"
 import msp "github.com/hxx258456/fabric-gm/msp"
 

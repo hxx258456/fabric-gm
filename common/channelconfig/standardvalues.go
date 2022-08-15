@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"reflect"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/golang/protobuf/proto"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
 )
 
 // DeserializeGroup deserializes the value for all values in a config group

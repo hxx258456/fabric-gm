@@ -7,13 +7,13 @@ SPDX-License-Identifier: Apache-2.0
 package privdata
 
 import (
-	protosgossip "gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset"
 	"github.com/hxx258456/fabric-gm/core/committer"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/core/transientstore"
 	"github.com/hxx258456/fabric-gm/gossip/privdata/common"
 	"github.com/hxx258456/fabric-gm/gossip/util"
+	protosgossip "github.com/hxx258456/fabric-protos-go-gm/gossip"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset"
 	"github.com/pkg/errors"
 )
 

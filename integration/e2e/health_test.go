@@ -16,8 +16,8 @@ import (
 
 	http "github.com/hxx258456/ccgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/fabric-config-gm/healthz"
 	docker "github.com/fsouza/go-dockerclient"
+	"github.com/hxx258456/fabric-config-gm/healthz"
 	"github.com/hxx258456/fabric-gm/integration/nwo"
 	"github.com/hxx258456/fabric-gm/integration/runner"
 	. "github.com/onsi/ginkgo"

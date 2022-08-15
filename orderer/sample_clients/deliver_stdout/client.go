@@ -10,15 +10,15 @@ import (
 	"math"
 	"os"
 
-	"gitee.com/zhaochuninhefei/fabric-config-gm/protolator"
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	ab "gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
 	"github.com/hxx258456/ccgo/grpc"
+	"github.com/hxx258456/fabric-config-gm/protolator"
 	"github.com/hxx258456/fabric-gm/bccsp/factory"
 	"github.com/hxx258456/fabric-gm/internal/pkg/identity"
 	mspmgmt "github.com/hxx258456/fabric-gm/msp/mgmt"
 	"github.com/hxx258456/fabric-gm/orderer/common/localconfig"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	ab "github.com/hxx258456/fabric-protos-go-gm/orderer"
 )
 
 var (

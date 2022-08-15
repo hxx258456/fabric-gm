@@ -13,8 +13,6 @@ import (
 	"fmt"
 	"sync"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	ab "gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
 	"github.com/hxx258456/fabric-gm/bccsp"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/common/configtx"
@@ -28,6 +26,8 @@ import (
 	"github.com/hxx258456/fabric-gm/orderer/common/types"
 	"github.com/hxx258456/fabric-gm/orderer/consensus"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	ab "github.com/hxx258456/fabric-protos-go-gm/orderer"
 	"github.com/pkg/errors"
 )
 

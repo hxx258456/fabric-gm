@@ -12,11 +12,11 @@ import (
 	"path/filepath"
 	"sync"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/fabric-gm/common/configtx/test"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/core/ledger/ledgermgmt"
 	"github.com/hxx258456/fabric-gm/core/ledger/ledgermgmt/ledgermgmttest"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 )
 
 // ChainID is a type used for the ids for the chains for experiments

@@ -15,10 +15,10 @@ import (
 
 	http "github.com/hxx258456/ccgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/fabric-config-gm/healthz"
 	kitstatsd "github.com/go-kit/kit/metrics/statsd"
 	tls "github.com/hxx258456/ccgo/gmtls"
 	"github.com/hxx258456/ccgo/prometheus/promhttp"
+	"github.com/hxx258456/fabric-config-gm/healthz"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/common/flogging/httpadmin"
 	"github.com/hxx258456/fabric-gm/common/metadata"

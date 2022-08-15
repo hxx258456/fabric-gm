@@ -12,12 +12,12 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	mspproto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/core/endorser"
 	"github.com/hxx258456/fabric-gm/core/endorser/fake"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	mspproto "github.com/hxx258456/fabric-protos-go-gm/msp"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 
 	"github.com/golang/protobuf/proto"
 )

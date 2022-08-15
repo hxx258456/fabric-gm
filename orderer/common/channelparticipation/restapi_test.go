@@ -15,7 +15,6 @@ import (
 	"path"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	http "github.com/hxx258456/ccgo/gmhttp"
 	"github.com/hxx258456/ccgo/gmhttp/httptest"
 	"github.com/hxx258456/fabric-gm/orderer/common/channelparticipation"
@@ -23,6 +22,7 @@ import (
 	"github.com/hxx258456/fabric-gm/orderer/common/localconfig"
 	"github.com/hxx258456/fabric-gm/orderer/common/types"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -5,8 +5,8 @@ import (
 	"context"
 	"sync"
 
-	commona "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
+	commona "github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/orderer"
 	"github.com/hxx258456/ccgo/grpc/metadata"
 )
 

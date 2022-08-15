@@ -13,11 +13,11 @@ import (
 	"sync"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer/etcdraft"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/common/viperutil"
 	cf "github.com/hxx258456/fabric-gm/core/config"
 	"github.com/hxx258456/fabric-gm/msp"
+	"github.com/hxx258456/fabric-protos-go-gm/orderer/etcdraft"
 	"github.com/spf13/viper"
 )
 

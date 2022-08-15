@@ -15,9 +15,9 @@ import (
 	"strings"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/saramagm/sarama"
 	"github.com/hxx258456/fabric-gm/bccsp/factory"
 	"github.com/hxx258456/fabric-gm/orderer/mocks/util"
+	"github.com/hxx258456/saramagm/sarama"
 	"github.com/spf13/viper"
 )
 

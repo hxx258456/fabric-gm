@@ -11,15 +11,15 @@ import (
 	"math"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
 	"github.com/hxx258456/ccgo/x509"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	gossipcommon "github.com/hxx258456/fabric-gm/gossip/common"
 	"github.com/hxx258456/fabric-gm/internal/pkg/identity"
 	"github.com/hxx258456/fabric-gm/internal/pkg/peer/orderers"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/gossip"
+	"github.com/hxx258456/fabric-protos-go-gm/orderer"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/ccgo/grpc"

@@ -9,10 +9,10 @@ package builtin_test
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/core/endorser/mocks"
 	"github.com/hxx258456/fabric-gm/core/handlers/endorsement/builtin"
 	mocks2 "github.com/hxx258456/fabric-gm/core/handlers/endorsement/builtin/mocks"
+	"github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

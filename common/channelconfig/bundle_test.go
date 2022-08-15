@@ -9,9 +9,9 @@ package channelconfig
 import (
 	"testing"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	ab "gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
 	cc "github.com/hxx258456/fabric-gm/common/capabilities"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	ab "github.com/hxx258456/fabric-protos-go-gm/orderer"
 	"github.com/stretchr/testify/assert"
 )
 

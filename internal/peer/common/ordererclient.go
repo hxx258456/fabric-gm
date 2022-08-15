@@ -10,8 +10,8 @@ import (
 
 	tls "github.com/hxx258456/ccgo/gmtls"
 
-	ab "gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
 	"github.com/hxx258456/fabric-gm/internal/pkg/comm"
+	ab "github.com/hxx258456/fabric-protos-go-gm/orderer"
 	"github.com/pkg/errors"
 )
 

@@ -14,12 +14,12 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/common/ledger/util/leveldbhelper"
 	"github.com/hxx258456/fabric-gm/core/ledger"
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger/txmgmt/rwsetutil"
 	btltestutil "github.com/hxx258456/fabric-gm/core/ledger/pvtdatapolicy/testutil"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset"
 	"github.com/stretchr/testify/require"
 )
 

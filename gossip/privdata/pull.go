@@ -15,7 +15,6 @@ import (
 	"sync"
 	"time"
 
-	protosgossip "gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
 	commonutil "github.com/hxx258456/fabric-gm/common/util"
 	"github.com/hxx258456/fabric-gm/core/common/privdata"
 	"github.com/hxx258456/fabric-gm/gossip/api"
@@ -28,6 +27,7 @@ import (
 	"github.com/hxx258456/fabric-gm/gossip/protoext"
 	"github.com/hxx258456/fabric-gm/gossip/util"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	protosgossip "github.com/hxx258456/fabric-protos-go-gm/gossip"
 	"github.com/pkg/errors"
 	"go.uber.org/zap/zapcore"
 )

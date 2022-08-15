@@ -22,11 +22,9 @@ import (
 
 	http "github.com/hxx258456/ccgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/fabric-config-gm/healthz"
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	ab "gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/ccgo/grpc"
+	"github.com/hxx258456/fabric-config-gm/healthz"
 	"github.com/hxx258456/fabric-gm/bccsp"
 	"github.com/hxx258456/fabric-gm/bccsp/factory"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
@@ -53,6 +51,8 @@ import (
 	"github.com/hxx258456/fabric-gm/orderer/consensus/kafka"
 	"github.com/hxx258456/fabric-gm/orderer/consensus/solo"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	ab "github.com/hxx258456/fabric-protos-go-gm/orderer"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/alecthomas/kingpin.v2"
 )

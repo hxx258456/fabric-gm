@@ -10,13 +10,13 @@ import (
 	"fmt"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
 	"github.com/hxx258456/fabric-gm/common/configtx/test"
 	"github.com/hxx258456/fabric-gm/common/crypto"
 	"github.com/hxx258456/fabric-gm/internal/pkg/txflags"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 
 	"github.com/hxx258456/fabric-gm/common/ledger/testutil/fakes"
 	"github.com/hxx258456/fabric-gm/msp"

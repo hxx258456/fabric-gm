@@ -9,10 +9,10 @@ package idemixca
 import (
 	"github.com/hxx258456/ccgo/sm2"
 
-	m "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/idemix"
 	"github.com/hxx258456/fabric-gm/msp"
+	m "github.com/hxx258456/fabric-protos-go-gm/msp"
 	"github.com/hyperledger/fabric-amcl/amcl/FP256BN"
 	"github.com/pkg/errors"
 )

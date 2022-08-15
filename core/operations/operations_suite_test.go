@@ -12,10 +12,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-config-gm/healthz"
 	http "github.com/hxx258456/ccgo/gmhttp"
 	tls "github.com/hxx258456/ccgo/gmtls"
 	"github.com/hxx258456/ccgo/x509"
+	"github.com/hxx258456/fabric-config-gm/healthz"
 	"github.com/hxx258456/fabric-gm/common/crypto/tlsgen"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

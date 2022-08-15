@@ -4,9 +4,9 @@ package mock
 import (
 	"sync"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 	"github.com/hxx258456/fabric-gm/common/ledger/blockledger"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
+	"github.com/hxx258456/fabric-protos-go-gm/orderer"
 )
 
 type BlockReader struct {

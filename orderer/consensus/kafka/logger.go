@@ -11,8 +11,8 @@ import (
 	"strings"
 	"sync"
 
-	"gitee.com/zhaochuninhefei/saramagm/sarama"
 	"github.com/hxx258456/fabric-gm/common/flogging"
+	"github.com/hxx258456/saramagm/sarama"
 	"go.uber.org/zap"
 )
 

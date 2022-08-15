@@ -7,11 +7,11 @@ SPDX-License-Identifier: Apache-2.0
 package chaincode
 
 import (
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	tls "github.com/hxx258456/ccgo/gmtls"
 	"github.com/hxx258456/fabric-gm/bccsp"
 	"github.com/hxx258456/fabric-gm/internal/peer/common"
 	"github.com/hxx258456/fabric-gm/internal/pkg/identity"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
 )

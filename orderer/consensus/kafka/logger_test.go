@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/saramagm/sarama"
 	"github.com/hxx258456/fabric-gm/common/flogging"
+	"github.com/hxx258456/saramagm/sarama"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/stretchr/testify/assert"
 )

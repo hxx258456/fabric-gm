@@ -13,10 +13,10 @@ import (
 	"fmt"
 	"time"
 
-	m "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/ccgo/x509"
 	"github.com/hxx258456/fabric-gm/bccsp"
+	m "github.com/hxx258456/fabric-protos-go-gm/msp"
 	errors "github.com/pkg/errors"
 )
 

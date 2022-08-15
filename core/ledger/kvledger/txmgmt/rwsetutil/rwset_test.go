@@ -20,9 +20,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/golang/protobuf/proto"
+	"github.com/hxx258456/fabric-protos-go-gm/ledger/rwset"
 	"github.com/stretchr/testify/require"
 )
 

@@ -21,10 +21,6 @@ import (
 
 	http "github.com/hxx258456/ccgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	discprotos "gitee.com/zhaochuninhefei/fabric-protos-go-gm/discovery"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	docker "github.com/fsouza/go-dockerclient"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/ccgo/grpc"
@@ -96,6 +92,10 @@ import (
 	"github.com/hxx258456/fabric-gm/msp"
 	"github.com/hxx258456/fabric-gm/msp/mgmt"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	discprotos "github.com/hxx258456/fabric-protos-go-gm/discovery"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

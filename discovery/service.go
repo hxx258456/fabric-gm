@@ -12,7 +12,6 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/discovery"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/common/util"
 	"github.com/hxx258456/fabric-gm/discovery/protoext"
@@ -20,6 +19,7 @@ import (
 	discovery2 "github.com/hxx258456/fabric-gm/gossip/discovery"
 	"github.com/hxx258456/fabric-gm/internal/pkg/comm"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/discovery"
 	"github.com/pkg/errors"
 )
 

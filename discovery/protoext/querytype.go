@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 
 package protoext
 
-import "gitee.com/zhaochuninhefei/fabric-protos-go-gm/discovery"
+import "github.com/hxx258456/fabric-protos-go-gm/discovery"
 
 // QueryType defines the types of service discovery requests
 type QueryType uint8

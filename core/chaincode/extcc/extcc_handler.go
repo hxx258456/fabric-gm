@@ -14,7 +14,7 @@ import (
 	"github.com/hxx258456/fabric-gm/internal/pkg/comm"
 	"github.com/pkg/errors"
 
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 
 	"github.com/hxx258456/ccgo/grpc"
 )

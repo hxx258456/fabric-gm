@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/hxx258456/fabric-gm/msp"
-	mspa "gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
+	mspa "github.com/hxx258456/fabric-protos-go-gm/msp"
 )
 
 type Identity struct {

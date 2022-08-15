@@ -9,8 +9,6 @@ package multichannel
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/bccsp/sw"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
@@ -23,6 +21,8 @@ import (
 	msgprocessormocks "github.com/hxx258456/fabric-gm/orderer/common/msgprocessor/mocks"
 	"github.com/hxx258456/fabric-gm/orderer/common/multichannel/mocks"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
+	"github.com/hxx258456/fabric-protos-go-gm/orderer"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

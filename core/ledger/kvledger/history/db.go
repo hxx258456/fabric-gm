@@ -7,7 +7,6 @@ SPDX-License-Identifier: Apache-2.0
 package history
 
 import (
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/fabric-gm/common/flogging"
 	"github.com/hxx258456/fabric-gm/common/ledger/blkstorage"
 	"github.com/hxx258456/fabric-gm/common/ledger/dataformat"
@@ -17,6 +16,7 @@ import (
 	"github.com/hxx258456/fabric-gm/core/ledger/kvledger/txmgmt/rwsetutil"
 	"github.com/hxx258456/fabric-gm/internal/pkg/txflags"
 	protoutil "github.com/hxx258456/fabric-gm/protoutil"
+	"github.com/hxx258456/fabric-protos-go-gm/common"
 )
 
 var logger = flogging.MustGetLogger("history")

@@ -12,9 +12,9 @@ import (
 
 	http "github.com/hxx258456/ccgo/gmhttp"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/golang/protobuf/proto"
 	"github.com/hxx258456/fabric-gm/internal/configtxlator/update"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
 )
 
 func fieldBytes(fieldName string, r *http.Request) ([]byte, error) {

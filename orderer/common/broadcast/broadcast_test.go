@@ -15,11 +15,11 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	ab "gitee.com/zhaochuninhefei/fabric-protos-go-gm/orderer"
 	"github.com/hxx258456/fabric-gm/orderer/common/broadcast"
 	"github.com/hxx258456/fabric-gm/orderer/common/broadcast/mock"
 	"github.com/hxx258456/fabric-gm/orderer/common/msgprocessor"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	ab "github.com/hxx258456/fabric-protos-go-gm/orderer"
 )
 
 var _ = Describe("Broadcast", func() {

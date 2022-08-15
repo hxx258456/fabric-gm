@@ -9,11 +9,11 @@ package chaincode_test
 import (
 	"testing"
 
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/hxx258456/fabric-gm/core/chaincode"
 	"github.com/hxx258456/fabric-gm/core/chaincode/mock"
 	"github.com/hxx258456/fabric-gm/core/container"
 	"github.com/hxx258456/fabric-gm/core/container/ccintf"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

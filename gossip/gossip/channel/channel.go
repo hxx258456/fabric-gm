@@ -15,7 +15,6 @@ import (
 	"sync/atomic"
 	"time"
 
-	proto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
 	common_utils "github.com/hxx258456/fabric-gm/common/util"
 	"github.com/hxx258456/fabric-gm/gossip/api"
 	"github.com/hxx258456/fabric-gm/gossip/comm"
@@ -30,6 +29,7 @@ import (
 	"github.com/hxx258456/fabric-gm/gossip/protoext"
 	"github.com/hxx258456/fabric-gm/gossip/util"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	proto "github.com/hxx258456/fabric-protos-go-gm/gossip"
 )
 
 const DefMsgExpirationTimeout = election.DefLeaderAliveThreshold * 10

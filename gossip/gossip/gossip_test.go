@@ -18,8 +18,6 @@ import (
 	"testing"
 	"time"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	proto "gitee.com/zhaochuninhefei/fabric-protos-go-gm/gossip"
 	"github.com/hxx258456/fabric-gm/bccsp/factory"
 	"github.com/hxx258456/fabric-gm/common/metrics/disabled"
 	"github.com/hxx258456/fabric-gm/gossip/api"
@@ -33,6 +31,8 @@ import (
 	"github.com/hxx258456/fabric-gm/gossip/protoext"
 	"github.com/hxx258456/fabric-gm/gossip/util"
 	corecomm "github.com/hxx258456/fabric-gm/internal/pkg/comm"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	proto "github.com/hxx258456/fabric-protos-go-gm/gossip"
 	"github.com/stretchr/testify/assert"
 )
 

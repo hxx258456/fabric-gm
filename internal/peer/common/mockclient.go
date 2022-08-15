@@ -9,9 +9,9 @@ package common
 import (
 	"context"
 
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	grpc "github.com/hxx258456/ccgo/grpc"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
+	pb "github.com/hxx258456/fabric-protos-go-gm/peer"
 )
 
 // GetMockEndorserClient return a endorser client return specified ProposalResponse and err(nil or error)

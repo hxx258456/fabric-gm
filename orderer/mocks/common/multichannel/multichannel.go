@@ -7,12 +7,12 @@ SPDX-License-Identifier: Apache-2.0
 package multichannel
 
 import (
-	cb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
 	"github.com/hxx258456/fabric-gm/common/channelconfig"
 	"github.com/hxx258456/fabric-gm/orderer/common/blockcutter"
 	"github.com/hxx258456/fabric-gm/orderer/common/msgprocessor"
 	mockblockcutter "github.com/hxx258456/fabric-gm/orderer/mocks/common/blockcutter"
 	"github.com/hxx258456/fabric-gm/protoutil"
+	cb "github.com/hxx258456/fabric-protos-go-gm/common"
 )
 
 // ConsenterSupport is used to mock the multichannel.ConsenterSupport interface
