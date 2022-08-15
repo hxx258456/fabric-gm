@@ -18,12 +18,10 @@ WORKDIR $GOPATH/src/github.com/hyperledger/fabric
 
 FROM golang as tools
 RUN go env -w GOPROXY=https://goproxy.cn,direct \
-	&& go env -w GOPRIVATE=github.com/hxx258456 \
     && make configtxgen configtxlator cryptogen peer discover idemixgen
 
 FROM golang:${GO_VER}-alpine
-RUN go env -w GOPROXY=https://goproxy.cn,direct \
-	&& go env -w GOPRIVATE=github.com/hxx258456
+RUN go env -w GOPROXY=https://goproxy.cn,direct
 # git is required to support `go list -m`
 ENV TIME_ZONE=Asia/Shanghai LANG=en_US.UTF-8 LANGUAGE=en_US.UTF-8 LC_ALL=en_US.UTF-8
 RUN sed -i "s?dl-cdn.alpinelinux.org?mirrors.aliyun.com?g" /etc/apk/repositories \

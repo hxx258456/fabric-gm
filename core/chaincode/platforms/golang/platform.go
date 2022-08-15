@@ -211,7 +211,6 @@ func getLDFlagsOpts() string {
 var buildScript = `
 set -e
 go env -w GOPROXY=https://goproxy.cn,direct
-go env -w GOPRIVATE=github.com/hxx258456
 if [ -f "/chaincode/input/src/go.mod" ] && [ -d "/chaincode/input/src/vendor" ]; then
     cd /chaincode/input/src
     GO111MODULE=on go build -v -mod=vendor %[1]s -o /chaincode/output/chaincode %[2]s
