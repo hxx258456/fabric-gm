@@ -443,8 +443,9 @@ github.com/hashicorp/golang-lru v0.5.0/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ
 github.com/hashicorp/golang-lru v0.5.1/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ4Ao+sR/qLZy8=
 github.com/hpcloud/tail v1.0.0/go.mod h1:ab1qPbhIpdTxEkNHXyeSf5vhxWSCs/tWer42PpOxQnU=
 github.com/hxx258456/ccgo v0.0.0-20220815135058-aea1800993ba/go.mod h1:c5Yem3zCkaO+avGDEgqJbnOJJQITGIJ9Cs6hAZKE6fg=
-github.com/hxx258456/ccgo v0.0.1 h1:YtOmvLmxyCmYeiq4QJgftlWZnFYo3dEdcTOEmRYptec=
 github.com/hxx258456/ccgo v0.0.1/go.mod h1:c5Yem3zCkaO+avGDEgqJbnOJJQITGIJ9Cs6hAZKE6fg=
+github.com/hxx258456/ccgo v0.0.2 h1:WGt7hSY2NQxF8eJ4no0GlTip2vhzMV03vTMwYkwvKsI=
+github.com/hxx258456/ccgo v0.0.2/go.mod h1:NL4EbBZbAJ1yG8X+jzhEZ3jTtuLLvssypkNUNW7Mydo=
 github.com/hxx258456/fabric-chaincode-go-gm v0.0.1 h1:ebpUWZJ8V7ZRg5T5WogrgZ46wWkkEoTkgEZ70ygJmdA=
 github.com/hxx258456/fabric-chaincode-go-gm v0.0.1/go.mod h1:tq+nhG6eGIVRnJqzh12NickOCRcHEEcrEandpHBBSA4=
 github.com/hxx258456/fabric-config-gm v0.0.1 h1:/2L19gezPNnCNp6Zpxvoc5HIkg1aPszbxAI0GeE0uWg=
@@ -675,7 +676,6 @@ github.com/rogpeppe/go-internal v1.3.0/go.mod h1:M8bDsm7K2OlrFYOpmOWEs/qY81heoFR
 github.com/rogpeppe/go-internal v1.6.1 h1:/FiVV8dS/e+YqF2JvO3yXRFbBLTIuSDkuC7aBOAvL+k=
 github.com/rogpeppe/go-internal v1.6.1/go.mod h1:xXDCJY+GAPziupqXw64V24skbSoqbTEfhy4qGm1nDQc=
 github.com/rs/xid v1.3.0/go.mod h1:trrq9SKmegXys3aeAKXMUTdJsYXVwGY3RLcfgqegfbg=
-github.com/rs/zerolog v1.27.0 h1:1T7qCieN22GVc8S4Q2yuexzBb1EqjbgjSH9RohbMjKs=
 github.com/rs/zerolog v1.27.0/go.mod h1:7frBqO0oezxmnO7GF86FY++uy8I0Tk/If5ni1G9Qc0U=
 github.com/russross/blackfriday/v2 v2.0.1/go.mod h1:+Rmxgy9KzJVeS9/2gXHxylqXiyQDYRxCVz55jmeOWTM=
 github.com/safchain/ethtool v0.0.0-20190326074333-42ed695e3de8/go.mod h1:Z0q5wiBQGYcxhMZ6gUqHn6pYNLypFAvaL3UvgZLR0U4=
