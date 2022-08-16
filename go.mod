@@ -12,11 +12,11 @@ require (
 	github.com/go-kit/kit v0.10.0
 	github.com/golang/protobuf v1.5.2
 	github.com/hashicorp/go-version v1.4.0
-	github.com/hxx258456/ccgo v0.0.0-20220815135058-aea1800993ba
-	github.com/hxx258456/fabric-chaincode-go-gm v0.0.0-20220815143232-1200cd9c846c
-	github.com/hxx258456/fabric-config-gm v0.0.0-20220815142458-b1b4f8be0cdf
-	github.com/hxx258456/fabric-protos-go-gm v0.0.0-20220815141714-2836819001d3
-	github.com/hxx258456/saramagm v0.0.0-20220815144051-a189b6380c79
+	github.com/hxx258456/ccgo v0.0.1
+	github.com/hxx258456/fabric-chaincode-go-gm v0.0.1
+	github.com/hxx258456/fabric-config-gm v0.0.1
+	github.com/hxx258456/fabric-protos-go-gm v0.0.1
+	github.com/hxx258456/saramagm v0.0.1
 	github.com/hyperledger/fabric-amcl v0.0.0-20210603140002-2670f91851c8
 	github.com/kr/pretty v0.3.0
 	github.com/miekg/pkcs11 v1.1.1
