@@ -12,11 +12,11 @@ require (
 	github.com/go-kit/kit v0.10.0
 	github.com/golang/protobuf v1.5.2
 	github.com/hashicorp/go-version v1.4.0
-	github.com/hxx258456/ccgo v0.0.2
-	github.com/hxx258456/fabric-chaincode-go-gm v0.0.1
-	github.com/hxx258456/fabric-config-gm v0.0.1
-	github.com/hxx258456/fabric-protos-go-gm v0.0.1
-	github.com/hxx258456/saramagm v0.0.1
+	github.com/hxx258456/ccgo v0.0.3
+	github.com/hxx258456/fabric-chaincode-go-gm v0.0.2
+	github.com/hxx258456/fabric-config-gm v0.0.2
+	github.com/hxx258456/fabric-protos-go-gm v0.0.2
+	github.com/hxx258456/saramagm v0.0.2
 	github.com/hyperledger/fabric-amcl v0.0.0-20210603140002-2670f91851c8
 	github.com/kr/pretty v0.3.0
 	github.com/miekg/pkcs11 v1.1.1
@@ -71,6 +71,7 @@ require (
 	github.com/klauspost/compress v1.13.6 // indirect
 	github.com/kr/text v0.2.0 // indirect
 	github.com/magiconair/properties v1.8.5 // indirect
+	github.com/mattn/go-colorable v0.1.4 // indirect
 	github.com/mattn/go-runewidth v0.0.12 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.2-0.20181231171920-c182affec369 // indirect
 	github.com/moby/sys/mount v0.2.0 // indirect
